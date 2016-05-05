@@ -1,0 +1,21 @@
+body {
+	background-color: #d7ccc8;
+	color: #3e2723;
+	display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+
+main {
+    flex: 1 0 auto;
+}
+
+.box-logo {
+  height: 210px;
+  background-color: #d84315;
+}
+
+.img-logo {
+	width: 100%;
+}

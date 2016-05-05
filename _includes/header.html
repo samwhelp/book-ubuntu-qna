@@ -1,0 +1,36 @@
+<div class="navbar-fixed">
+	<nav class="deep-orange darken-3" role="navigation">
+		<div class="nav-wrapper">
+			<div class="box-main-title">
+				<a class="brand-logo" href="{{ site.baseurl }}/">{{ site.title }}</a>
+			</div>
+			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+
+			<ul class="right hide-on-med-and-down">
+
+				<li><a href="{{ site.baseurl }}/">Home</a></li>
+				<li><a href="{{ '/blog/' | prepend: site.baseurl }}">Blog</a></li>
+
+			</ul>
+			<div class="side-nav" id="mobile-demo">
+				<div class="box-logo">
+					<a href="{{ site.baseurl }}/" title="{{ site.title }}"><img src="{{ '/asset/img/logo.png' | prepend: site.baseurl }}" class="img-logo"></a>
+				</div>
+
+				<ul>
+
+					<li><a href="{{ site.baseurl }}/" class="waves-effect waves-light">Home</a></li>
+					<li><a href="{{ '/blog/' | prepend: site.baseurl }}" class="waves-effect waves-light">Blog</a></li>
+
+				</ul>
+			</div>
+
+			<script type="text/javascript">
+				$(function() {
+					$(".button-collapse").sideNav();
+				});
+			</script>
+
+		</div>
+	</nav>
+</div>
