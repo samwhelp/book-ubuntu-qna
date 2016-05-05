@@ -1,7 +1,16 @@
 .highlighter-rouge code {
-  background: #272822;
-  color: #fff;
+	background: #272822;
+	color: #fff;
 }
+
+pre.highlight {
+	padding: 10px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; /* future proofing */
+	-khtml-border-radius: 5px; /* for old Konqueror browsers */	
+}
+
 
 pre.highlight,
 .highlight pre { background-color: #272822; }

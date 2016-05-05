@@ -1,4 +1,61 @@
 
 .post-title {
-	font-size: 40px;
+	font-size: 36px;
+}
+
+.post-content h1 {
+	font-size: 32px;
+}
+
+.post-content h2 {
+	font-size: 28px;
+	padding-bottom: 8px;
+	border-bottom: 1px dotted #bdbdbd;
+}
+
+.post-content h3 {
+	font-size: 24px;
+	padding-bottom: 6px;
+	border-bottom: 1px dashed #bdbdbd;
+}
+
+.post-content h4 {
+	font-size: 22px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.post-content h5 {
+	font-size: 20px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.post-content h6 {
+	font-size: 18px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.post-content ul,
+.post-content ol {
+  padding-left: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.post-content ol ol,
+.post-content ul ol {
+  list-style-type: lower-roman;
+}
+
+.post-content ul ul ol,
+.post-content ul ol ol,
+.post-content ol ul ol,
+.post-content ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.post-content ul li {
+  list-style-type: initial;
 }
