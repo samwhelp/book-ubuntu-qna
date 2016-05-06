@@ -2,8 +2,6 @@
 layout: default
 ---
 
-## 索引
+## 套件管理
 
-* [如何執行指令](/book-ubuntu-qna/read/subject/command/)
-* [套件操作實務](/book-ubuntu-qna/read/subject/package/)
-* [泛Ubuntu 安裝調校](/book-ubuntu-qna/read/subject/install/)
+* [安裝 Google Chrome](/book-ubuntu-qna/read/case/google-chrome/)

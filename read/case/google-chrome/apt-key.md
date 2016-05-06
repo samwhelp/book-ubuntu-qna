@@ -98,3 +98,9 @@ $ wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key 
 ``` sh
 $ sudo mv /etc/apt/sources.list.d/google-chrome.list ~/Documents/
 ```
+
+## 更多參考
+
+* Ubuntu Community Help Wiki / [SecureApt](https://help.ubuntu.com/community/SecureApt)
+* Debian Wiki / [SecureApt](https://wiki.debian.org/SecureApt)
+* $ man [apt-key](http://manpages.ubuntu.com/manpages/xenial/en/man8/apt-key.8.html)

@@ -4,23 +4,21 @@
 			<div class="box-main-title">
 				<a class="brand-logo" href="{{ site.baseurl }}/">{{ site.title }}</a>
 			</div>
-			<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+
+			<a href="javascript:;" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
 
 			<ul class="right hide-on-med-and-down">
-
-				<li><a href="{{ site.baseurl }}/" class="nav-btn">Home</a></li>
-				<li><a href="{{ '/read/case/' | prepend: site.baseurl }}" class="nav-btn">Case</a></li>
+				<li><a href="{{ '/read/subject/' | prepend: site.baseurl }}" class="nav-btn">Subject</a></li>
 				<li><a href="{{ '/read/blog/' | prepend: site.baseurl }}" class="nav-btn">Blog</a></li>
 			</ul>
-			<div class="side-nav" id="mobile-demo">
+			
+			<div class="side-nav" id="mobile-menu">
 				<div class="box-logo">
 					<a href="{{ site.baseurl }}/" title="{{ site.title }}"><img src="{{ '/asset/img/logo.png' | prepend: site.baseurl }}" class="img-logo"></a>
 				</div>
 
 				<ul>
-
-					<li><a href="{{ site.baseurl }}/" class="waves-effect waves-light "><span class="nav-btn">Home</span></a></li>
-					<li><a href="{{ '/read/case/' | prepend: site.baseurl }}" class="waves-effect waves-light"><span class="nav-btn">Case</span></a></li>
+					<li><a href="{{ '/read/subject/' | prepend: site.baseurl }}" class="waves-effect waves-light"><span class="nav-btn">Subject</span></a></li>
 					<li><a href="{{ '/read/blog/' | prepend: site.baseurl }}" class="waves-effect waves-light"><span class="nav-btn">Blog</span></a></li>
 				</ul>
 			</div>
