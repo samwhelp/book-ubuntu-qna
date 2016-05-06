@@ -1,0 +1,3 @@
+http://samwhelp.github.io/book-ubuntu-qna/
+http://samwhelp.github.io/book-ubuntu-qna/read/case/google-chrome/install.html
+http://samwhelp.github.io/book-ubuntu-qna/read/case/google-chrome/apt-key.html
