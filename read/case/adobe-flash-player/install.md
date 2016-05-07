@@ -18,8 +18,8 @@ title: 有關 Adobe Flash Player 的套件
 
 目前我知道的套件有下面三個
 
-* [flashplugin-installer](http://packages.ubuntu.com/xenial/flashplugin-installer)
-* [pepperflashplugin-nonfree](http://packages.ubuntu.com/xenial/pepperflashplugin-nonfree)
+* [flashplugin-installer](http://packages.ubuntu.com/trusty/flashplugin-installer)
+* [pepperflashplugin-nonfree](http://packages.ubuntu.com/trusty/pepperflashplugin-nonfree)
 * adobe-flashplugin
 
 ===========================================
@@ -32,7 +32,7 @@ title: 有關 Adobe Flash Player 的套件
 $ sudo apt-get install flashplugin-installer
 ```
 
-* 對「[firefox](http://packages.ubuntu.com/xenial/firefox)」有效
+* 對「[firefox](http://packages.ubuntu.com/trusty/firefox)」有效
 * 在安裝這個套件的時候，透過「[MaintainerScripts](https://wiki.debian.org/MaintainerScripts)」，下載「flash」到相關的位置，
 * 可以研究「/var/lib/dpkg/info/flashplugin-installer.postinst」和「/usr/lib/flashplugin-installer/install_plugin」的內容。
 
@@ -46,7 +46,7 @@ $ sudo apt-get install flashplugin-installer
 $ sudo apt-get install update-pepperflashplugin-nonfree
 ```
 
-* 對「[chromium](http://packages.ubuntu.com/xenial/chromium-browser)」有效，對「opera 36」也有效，因為核心好像也是chrome系的。
+* 對「[chromium](http://packages.ubuntu.com/trusty/chromium-browser)」有效，對「opera 36」也有效，因為核心好像也是chrome系的。
 * 我觀察到他是下載「Google Chrome」的「deb檔」下來，然後解開，把flash抽出來，放到相關的位置。
 * 可以研究「/var/lib/dpkg/info/pepperflashplugin-nonfree.postinst」和「/usr/sbin/update-pepperflashplugin-nonfree」的內容。
 * 注意：目前「chrome」已經不提供linux 32位元的版本了。
