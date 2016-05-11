@@ -62,14 +62,12 @@ gnome-control-center: /usr/bin/gnome-control-center /usr/lib/gnome-control-cente
 
 ``` sh
 $ dpkg -S /usr/bin/gnome-control-center
-
 ```
 
 顯示
 
 ``` sh
 gnome-control-center: /usr/bin/gnome-control-center
-
 ```
 
 表示「[/usr/bin/gnome-control-center](http://manpages.ubuntu.com/manpages/xenial/en/man1/gnome-control-center.1.html)」這個指令，是屬於「[gnome-control-center](http://packages.ubuntu.com/xenial/gnome-control-center)」這個「Package(套件)」。

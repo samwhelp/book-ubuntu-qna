@@ -2,22 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>http://samwhelp.github.io/book-ubuntu-qna/</loc>
-		<lastmod>2016-05-07</lastmod>
+		<lastmod>2016-05-10</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
 		<loc>http://samwhelp.github.io/book-ubuntu-qna/read/case/google-chrome/install.html</loc>
-		<lastmod>2016-05-07</lastmod>
+		<lastmod>2016-05-10</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
 		<loc>http://samwhelp.github.io/book-ubuntu-qna/read/case/google-chrome/apt-key.html</loc>
-		<lastmod>2016-05-07</lastmod>
+		<lastmod>2016-05-10</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 	<url>
 		<loc>http://samwhelp.github.io/book-ubuntu-qna/read/case/adobe-flash-player/install.html</loc>
-		<lastmod>2016-05-07</lastmod>
+		<lastmod>2016-05-10</lastmod>
+		<changefreq>daily</changefreq>
+	</url>
+	<url>
+		<loc>http://samwhelp.github.io/book-ubuntu-qna/read/link/www.linux.org.tw.html</loc>
+		<lastmod>2016-05-10</lastmod>
+		<changefreq>daily</changefreq>
+	</url>
+	<url>
+		<loc>http://samwhelp.github.io/book-ubuntu-qna/read/case/i18n/gettext-gnome-control-center.html</loc>
+		<lastmod>2016-05-10</lastmod>
+		<changefreq>daily</changefreq>
+	</url>
+	<url>
+		<loc>http://samwhelp.github.io/book-ubuntu-qna/read/case/i18n/gettext-gucharmap.html</loc>
+		<lastmod>2016-05-10</lastmod>
+		<changefreq>daily</changefreq>
+	</url>
+	<url>
+		<loc>http://samwhelp.github.io/book-ubuntu-qna/read/case/i18n/gettext-kcharselect.html</loc>
+		<lastmod>2016-05-10</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
 </urlset>
