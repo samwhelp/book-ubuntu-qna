@@ -7,3 +7,4 @@ http://samwhelp.github.io/book-ubuntu-qna/read/case/i18n/gettext-gnome-control-c
 http://samwhelp.github.io/book-ubuntu-qna/read/case/i18n/gettext-gucharmap.html
 http://samwhelp.github.io/book-ubuntu-qna/read/case/i18n/gettext-kcharselect.html
 http://samwhelp.github.io/book-ubuntu-qna/read/case/i18n/gettext-libreoffice.html
+http://samwhelp.github.io/book-ubuntu-qna/read/case/i18n/l10n-tw.html
