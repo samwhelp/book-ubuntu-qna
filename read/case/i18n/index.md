@@ -10,6 +10,10 @@ title: 國際化與在地化
 * [如何找到 kcharselect 的 PO檔](/book-ubuntu-qna/read/case/i18n/gettext-kcharselect.html)
 * [如何找到 libreoffice 的 PO檔](/book-ubuntu-qna/read/case/i18n/gettext-libreoffice.html)
 
+## 專案
+
+* GitHub / [prototype-unicode-block-name-map](https://github.com/samwhelp/prototype-unicode-block-name-map)
+
 
 ## Wikipedia
 
