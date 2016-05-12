@@ -246,3 +246,10 @@ msgstr ""
 以上參考
 
 :-)
+
+
+## 更多參考
+
+* [請問應該如何回報翻譯錯誤？](https://groups.google.com/forum/#!topic/chinese-l10n/qmqqEK4oKAA)
+* [https://l10n.gnome.org/teams/zh_trad/](https://l10n.gnome.org/teams/zh_trad/)
+* [https://l10n.gnome.org/languages/zh_TW/](https://l10n.gnome.org/languages/zh_TW/)
