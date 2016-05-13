@@ -31,6 +31,7 @@ title: 使用「chinese-l10n@googlegroups.com」當關鍵字查到的連結
 ## 衍生的連結
 
 * [臺灣自由軟體社群在地發展 - 困境與提案](https://paper.dropbox.com/doc/--aZ5CDu5idSrgADdDucMOb) ([寫在 COSCUP 2015 之後](http://breezymove.blogspot.tw/2015/08/coscup-2015.html?view=classic&m=1)) ([2015 coscup jserv](https://www.youtube.com/results?search_query=2015+coscup+jserv) - [[1](https://www.youtube.com/watch?v=s8raaFWHd30)])
+* [ubuntu 台灣社群 ramp-up 提案](https://lists.ubuntu.com/archives/ubuntu-tw/2015-May/000283.html[Ubuntu-TW 282) ([討論列表](https://lists.ubuntu.com/archives/ubuntu-tw/2015-May/date.html#283))
 * [L10n 社群支援網站設立計畫](https://paper.dropbox.com/doc/L10n--xg6SzV6VJzxgvJwrktBhF)
 * [臺灣自由桌面突擊小隊](https://tossug.hackpad.com/UAG94BNbRgS)
 * [zh_TW 用語對照與參考](https://docs.google.com/spreadsheet/ccc?key=0ApSlMavoL63kdEgwRzZBd2Fxa1RJLWpOMy1scGZhMHc)
