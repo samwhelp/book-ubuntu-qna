@@ -92,7 +92,15 @@ $ wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key 
 ### 方法三
 
 
-這個方法比較不建議，因為把「/etc/apt/sources.list.d/google-chrome.list」移走，chrome這個套件資訊在「sudo apt-get update」就不會知道有新的版本。
+把「/etc/apt/sources.list.d/google-chrome.list」移走，
+或是把裡面的「deb」和「deb-src」那幾行註解。
+
+這個方法比較不建議，
+因為在「sudo apt-get update」就不會知道「Chrome」有新的版本。
+
+不過這也是其中一種解法，
+當其他方式都不能解決，
+而希望「sudo apt-get update」可以順利進行，就可以使用。
 
 
 ``` sh
