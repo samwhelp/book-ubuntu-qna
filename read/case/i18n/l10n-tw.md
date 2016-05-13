@@ -26,6 +26,7 @@ title: 使用「chinese-l10n@googlegroups.com」當關鍵字查到的連結
 * [請問目前臺灣的中文翻譯者有沒有統一的字彙翻譯對照表 (glossary)？](https://groups.google.com/forum/#!topic/chinese-l10n/5lRMZgRdM_U)
 * [" localization " 的翻譯為「本地化」或「在地化」，哪個較合適？](https://groups.google.com/forum/#!topic/chinese-l10n/Z3Rkg6_h5PM) (維基百科 / [國際化與本地化](https://zh.wikipedia.org/zh-tw/國際化與本地化))
 * [請問應該如何回報翻譯錯誤？](https://groups.google.com/forum/#!topic/chinese-l10n/qmqqEK4oKAA)
+* [l10n-tw 支援站近況](https://groups.google.com/forum/#!topic/chinese-l10n/A1Gp7u5B7dY)
 
 ## 衍生的連結
 
@@ -34,5 +35,6 @@ title: 使用「chinese-l10n@googlegroups.com」當關鍵字查到的連結
 * [臺灣自由桌面突擊小隊](https://tossug.hackpad.com/UAG94BNbRgS)
 * [zh_TW 用語對照與參考](https://docs.google.com/spreadsheet/ccc?key=0ApSlMavoL63kdEgwRzZBd2Fxa1RJLWpOMy1scGZhMHc)
 * [Team coordinators and the TP](http://translationproject.org/html/leaders.html)
+* [自由軟體正體中文化 (L10N) - 工作指引](https://docs.google.com/document/d/1Zs4CS_ZjN-imnImq4aEsiVYih8zkIkVZTSQim13_kYg/preview?pref=2&pli=1#heading=h.2seun19tplr3)
 * [https://l10n.gnome.org/teams/zh_trad/](https://l10n.gnome.org/teams/zh_trad/)
 * [https://l10n.gnome.org/languages/zh_TW/](https://l10n.gnome.org/languages/zh_TW/)
