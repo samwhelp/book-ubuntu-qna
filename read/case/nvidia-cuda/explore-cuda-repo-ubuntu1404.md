@@ -385,5 +385,6 @@ $ ls /var/lib/dpkg/info/cuda-repo-ubuntu1404.*
 
 * 「$ dpkg -s cuda-repo-ubuntu1404」
 * 「/var/lib/dpkg/status」
+* 「/var/lib/dpkg/available」
 * 「$ apt-cache show cuda-repo-ubuntu1404」
 * 「/var/lib/apt/lists/developer.download.nvidia.com_compute_cuda_repos_ubuntu1404_x86%5f64_Packages 」
