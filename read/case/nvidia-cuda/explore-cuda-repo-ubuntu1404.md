@@ -288,12 +288,19 @@ apt-key remove cudatools >/dev/null 2>&1 ||:
 ## 小結
 
 從以上的分析看來，
+
 安裝「cuda-repo-ubuntu1404_7.5-18_amd64.deb」這個套件，
+
 也就是執行「sudo dpkg -i cuda-repo-ubuntu1404_7.5-18_amd64.deb」，
+
 只是幫你把安裝「cuda」的「套件庫來源」。
+
 也就是會在「/etc/apt/sources.list.d/」多放一個檔案「cuda.list」，檔案內容紀錄的就是套件庫來源網址。
+
 然後還會執行「DEBIAN/postinst」，也就是把「apt-key」加進去。
+
 所以安裝完「cuda-repo-ubuntu1404_7.5-18_amd64.deb」這個套件，
+
 要再多執行一個指令「sudo apt-get update」，更新套件庫的套件資訊。
 
 ## 實際安裝
@@ -343,7 +350,9 @@ $ dpkg -L cuda-repo-ubuntu1404
 ```
 
 上面這個列表，表示「cuda-repo-ubuntu1404_7.5-18_amd64.deb」這個套件，安裝了那些檔案在系統上。
+
 可以對照上面的「dpkg -c cuda-repo-ubuntu1404_7.5-18_amd64.deb」得到的列表。
+
 或是對照上面的「dpkg -x cuda-repo-ubuntu1404_7.5-18_amd64.deb cuda-repo-ubuntu1404」然後再用「tree cuda-repo-ubuntu1404」得到的結果。
 
 
