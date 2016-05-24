@@ -23,7 +23,7 @@ cd ~/Downloads/cuda_network
 
 ## 下載檔案
 
-下載「[cuda-repo-ubuntu1404_7.5-18_amd64.deb)(http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1404/x86_64/cuda-repo-ubuntu1404_7.5-18_amd64.deb)」
+下載「[cuda-repo-ubuntu1404_7.5-18_amd64.deb](http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1404/x86_64/cuda-repo-ubuntu1404_7.5-18_amd64.deb)」
 
 ``` sh
 $ wget -c http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1404/x86_64/cuda-repo-ubuntu1404_7.5-18_amd64.deb
@@ -363,7 +363,7 @@ $ ls /var/lib/dpkg/info/cuda-repo-ubuntu1404.*
 /var/lib/dpkg/info/cuda-repo-ubuntu1404.postrm
 ```
 
-可以對照剛剛使用「dpkg -e cuda-repo-ubuntu1404_7.5-18_amd64.deb」解開到「DEBIAN」這個資料夾的檔案
+可以對照剛剛使用「`dpkg -e cuda-repo-ubuntu1404_7.5-18_amd64.deb`」解開到「DEBIAN」這個資料夾的檔案
 
 * /var/lib/dpkg/info/cuda-repo-ubuntu1404.conffiles      <-->      DEBIAN/conffiles  
 * /var/lib/dpkg/info/cuda-repo-ubuntu1404.postinst       <-->      DEBIAN/postinst
