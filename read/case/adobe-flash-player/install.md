@@ -35,6 +35,8 @@ $ sudo apt-get install flashplugin-installer
 * 對「[firefox](http://packages.ubuntu.com/trusty/firefox)」有效
 * 在安裝這個套件的時候，透過「[MaintainerScripts](https://wiki.debian.org/MaintainerScripts)」，下載「flash」到相關的位置，
 * 可以研究「/var/lib/dpkg/info/flashplugin-installer.postinst」和「/usr/lib/flashplugin-installer/install_plugin」的內容。
+*「/usr/share/package-data-downloads/flashplugin-installer 」
+
 
 ===========================================
 
@@ -92,5 +94,7 @@ $ sudo apt-get install adobe-flashplugin
 ## 更多參考
 
 之前我在這篇「[回覆: Browser Vivaldi stable_1.0.435.38-1 Release](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=351222#forumpost351222)」，有做簡單的紀錄。
+
+探索套件的方法，請到這個「[索引](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=333562#forumpost333562)」，裡面有列了很多案例可以參考。
 
 ===========================================
