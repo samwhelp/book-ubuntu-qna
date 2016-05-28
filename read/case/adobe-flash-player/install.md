@@ -35,7 +35,7 @@ $ sudo apt-get install flashplugin-installer
 * 對「[firefox](http://packages.ubuntu.com/trusty/firefox)」有效
 * 在安裝這個套件的時候，透過「[MaintainerScripts](https://wiki.debian.org/MaintainerScripts)」，下載「flash」到相關的位置，
 * 可以研究「/var/lib/dpkg/info/flashplugin-installer.postinst」和「/usr/lib/flashplugin-installer/install_plugin」的內容。
-*「/usr/share/package-data-downloads/flashplugin-installer 」
+* 「/usr/share/package-data-downloads/flashplugin-installer 」
 
 
 ===========================================
