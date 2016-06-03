@@ -2,31 +2,31 @@
 	<div class="container">
 		<div class="row">
 			<div class="col l6 s12">
-				<h5 class="white-text">{{ site.title }}</h5>
-				<p class="grey-text text-lighten-4">{{ site.description }}</p>
+				<h5 class="white-text">{{ site.title | escape }}</h5>
+				<p class="grey-text text-lighten-4">{{ site.description | escape }}</p>
 			</div>
 			<div class="col l4 offset-l2 s12">
 				<h5 class="white-text">Links</h5>
 				<ul>
-					<li><a class="grey-text text-lighten-3" href="{{ "/read/link/www.linux.org.tw.html" | prepend: site.baseurl }}">Linux TW</a></li>
-					<li><a class="grey-text text-lighten-3" href="http://www.ubuntu-tw.org/" target="_blank">Ubuntu TW</a></li>
-					<li><a class="grey-text text-lighten-3" href="http://packages.ubuntu.com/" target="_blank">Ubuntu Packages</a></li>
-					<li><a class="grey-text text-lighten-3" href="http://manpages.ubuntu.com/" target="_blank">Ubuntu Manpage</a></li>
-					<li><a class="grey-text text-lighten-3" href="http://help.ubuntu.com/community/CommunityHelpWiki" target="_blank">Ubuntu Community Help Wiki</a></li>
-					<li><a class="grey-text text-lighten-3" href="http://www.ubuntu.com/about/about-ubuntu/conduct" target="_blank">Ubuntu Code of Conduct</a></li>
-					<li><a class="grey-text text-lighten-3" href="http://www.ubuntu-tw.org/modules/tinyd0/index.php?id=4" target="_blank">Ubuntu 行為規範</a></li>
-					<li><a class="grey-text text-lighten-3" href="http://samwhelp.github.io/book-ubuntu-basic-skill/book/" target="_blank">Ubuntu Basic Skill</a></li>
-					<li><a class="grey-text text-lighten-3" href="http://samwhelp.github.io/book-ubuntu-exploration/book/" target="_blank">Ubuntu Exploration</a></li>
+					<li><a class="grey-text text-lighten-3" href="{{ '/read/link/www.linux.org.tw.html' | prepend: site.baseurl | escape }}" title="Linux TW">Linux TW</a></li>
+					<li><a class="grey-text text-lighten-3" href="http://www.ubuntu-tw.org/" target="_blank" title="Ubuntu TW">Ubuntu TW</a></li>
+					<li><a class="grey-text text-lighten-3" href="http://packages.ubuntu.com/" target="_blank" title="Ubuntu Packages">Ubuntu Packages</a></li>
+					<li><a class="grey-text text-lighten-3" href="http://manpages.ubuntu.com/" target="_blank" title="Ubuntu Manpage">Ubuntu Manpage</a></li>
+					<li><a class="grey-text text-lighten-3" href="http://help.ubuntu.com/community/CommunityHelpWiki" target="_blank" title="Ubuntu Community Help Wiki">Ubuntu Community Help Wiki</a></li>
+					<li><a class="grey-text text-lighten-3" href="http://www.ubuntu.com/about/about-ubuntu/conduct" target="_blank" title="Ubuntu Code of Conduct">Ubuntu Code of Conduct</a></li>
+					<li><a class="grey-text text-lighten-3" href="http://www.ubuntu-tw.org/modules/tinyd0/index.php?id=4" target="_blank" title="Ubuntu 行為規範">Ubuntu 行為規範</a></li>
+					<li><a class="grey-text text-lighten-3" href="http://samwhelp.github.io/book-ubuntu-basic-skill/book/" target="_blank" title="Ubuntu Basic Skill">Ubuntu Basic Skill</a></li>
+					<li><a class="grey-text text-lighten-3" href="http://samwhelp.github.io/book-ubuntu-exploration/book/" target="_blank" title="Ubuntu Exploration">Ubuntu Exploration</a></li>
 				</ul>
 			</div>
 		</div>
 	</div>
 	<div class="footer-copyright">
 		<div class="container">
-			By <a href="http://samwhelp.github.io/" target="_blank">samwhelp</a>
-			<span>Subscribe via<a href="{{ "/feed.xml" | prepend: site.baseurl }}" > RSS</a></span>
+			By <a href="http://samwhelp.github.io/" target="_blank" title="samwhelp">samwhelp</a>
+			<span>Subscribe via <a href="{{ '/feed.xml' | prepend: site.baseurl | escape }}" title="Feed" >RSS</a></span>
 
-			<a class="grey-text text-lighten-4 right" href="{{ "/read/link/" | prepend: site.baseurl }}">More Links</a>
+			<a class="grey-text text-lighten-4 right" href="{{ '/read/link/' | prepend: site.baseurl | escape }}" title="More Links">More Links</a>
 
 		</div>
 	</div>

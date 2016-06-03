@@ -2,35 +2,28 @@
 	<nav class="deep-orange darken-3" role="navigation">
 		<div class="nav-wrapper">
 			<div class="box-main-title">
-				<a class="brand-logo" href="{{ site.baseurl }}/">{{ site.title }}</a>
+				<a class="brand-logo" href="{{ site.baseurl | append: '/' | escape }}" title="{{ site.title | escape }}">{{ site.title | escape }}</a>
 			</div>
 
 			<a href="javascript:;" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
 
 			<ul class="right hide-on-med-and-down">
-				<li><a href="{{ '/read/subject/' | prepend: site.baseurl }}" class="nav-btn">Subject</a></li>
-				<li><a href="{{ '/read/blog/' | prepend: site.baseurl }}" class="nav-btn">Blog</a></li>
-				<li><a href="https://github.com/samwhelp/book-ubuntu-qna" class="nav-btn" target="_blank">GitHub</a></li>
+				<li><a href="{{ '/read/subject/' | prepend: site.baseurl | escape }}" class="nav-btn" title="Subject">Subject</a></li>
+				<li><a href="{{ '/read/blog/' | prepend: site.baseurl | escape }}" class="nav-btn" title="Blog">Blog</a></li>
+				<li><a href="https://github.com/samwhelp/book-ubuntu-qna" class="nav-btn" target="_blank" title="Github">GitHub</a></li>
 			</ul>
 
 			<div class="side-nav" id="mobile-menu">
 				<div class="box-logo">
-					<a href="{{ site.baseurl }}/" title="{{ site.title }}"><img src="{{ '/asset/img/logo.png' | prepend: site.baseurl }}" class="img-logo"></a>
+					<a href="{{ site.baseurl | append: '/' | escape }}" title="{{ site.title | escape }}"><img src="{{ '/asset/img/logo.png' | prepend: site.baseurl | escape }}" class="img-logo"></a>
 				</div>
 
 				<ul>
-					<li><a href="{{ '/read/subject/' | prepend: site.baseurl }}" class="waves-effect waves-light"><span class="nav-btn">Subject</span></a></li>
-					<li><a href="{{ '/read/blog/' | prepend: site.baseurl }}" class="waves-effect waves-light"><span class="nav-btn">Blog</span></a></li>
-					<li><a href="https://github.com/samwhelp/book-ubuntu-qna" class="waves-effect waves-light" target="_blank"><span class="nav-btn">GitHub</span></a></li>
-
+					<li><a href="{{ '/read/subject/' | prepend: site.baseurl | escape }}" class="waves-effect waves-light" title="Subject"><span class="nav-btn">Subject</span></a></li>
+					<li><a href="{{ '/read/blog/' | prepend: site.baseurl | escape }}" class="waves-effect waves-light" title="Blog"><span class="nav-btn">Blog</span></a></li>
+					<li><a href="https://github.com/samwhelp/book-ubuntu-qna" class="waves-effect waves-light" target="_blank" title="GitHub"><span class="nav-btn">GitHub</span></a></li>
 				</ul>
 			</div>
-
-			<script type="text/javascript">
-				$(function() {
-					$(".button-collapse").sideNav();
-				});
-			</script>
 
 		</div>
 	</nav>
