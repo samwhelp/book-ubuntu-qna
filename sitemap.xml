@@ -1,53 +1,20 @@
+---
+layout: null
+---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{% for post in site.posts %}
 	<url>
-		<loc>http://samwhelp.github.io/book-ubuntu-qna/</loc>
-		<lastmod>2016-05-12</lastmod>
+		<loc>{{ post.url | prepend: site.baseurl | prepend: site.url | xml_escape }}</loc>
+		<lastmod>{{ site.time | date_to_xmlschema | xml_escape }}</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
+{% endfor %}
+{% for post in site.pages %}{% if post.url contains '/read/' or post.url == '/' %}
 	<url>
-		<loc>http://samwhelp.github.io/book-ubuntu-qna/read/case/google-chrome/install.html</loc>
-		<lastmod>2016-05-12</lastmod>
+		<loc>{{ post.url | prepend: site.baseurl | prepend: site.url | xml_escape }}</loc>
+		<lastmod>{{ site.time | date_to_xmlschema | xml_escape }}</lastmod>
 		<changefreq>daily</changefreq>
 	</url>
-	<url>
-		<loc>http://samwhelp.github.io/book-ubuntu-qna/read/case/google-chrome/apt-key.html</loc>
-		<lastmod>2016-05-12</lastmod>
-		<changefreq>daily</changefreq>
-	</url>
-	<url>
-		<loc>http://samwhelp.github.io/book-ubuntu-qna/read/case/adobe-flash-player/install.html</loc>
-		<lastmod>2016-05-12</lastmod>
-		<changefreq>daily</changefreq>
-	</url>
-	<url>
-		<loc>http://samwhelp.github.io/book-ubuntu-qna/read/link/www.linux.org.tw.html</loc>
-		<lastmod>2016-05-12</lastmod>
-		<changefreq>daily</changefreq>
-	</url>
-	<url>
-		<loc>http://samwhelp.github.io/book-ubuntu-qna/read/case/i18n/gettext-gnome-control-center.html</loc>
-		<lastmod>2016-05-12</lastmod>
-		<changefreq>daily</changefreq>
-	</url>
-	<url>
-		<loc>http://samwhelp.github.io/book-ubuntu-qna/read/case/i18n/gettext-gucharmap.html</loc>
-		<lastmod>2016-05-12</lastmod>
-		<changefreq>daily</changefreq>
-	</url>
-	<url>
-		<loc>http://samwhelp.github.io/book-ubuntu-qna/read/case/i18n/gettext-kcharselect.html</loc>
-		<lastmod>2016-05-12</lastmod>
-		<changefreq>daily</changefreq>
-	</url>
-	<url>
-		<loc>http://samwhelp.github.io/book-ubuntu-qna/read/case/i18n/gettext-libreoffice.html</loc>
-		<lastmod>2016-05-12</lastmod>
-		<changefreq>daily</changefreq>
-	</url>
-	<url>
-		<loc>http://samwhelp.github.io/book-ubuntu-qna/read/case/i18n/l10n-tw.html</loc>
-		<lastmod>2016-05-12</lastmod>
-		<changefreq>daily</changefreq>
-	</url>
+{% endif %}{% endfor %}
 </urlset>

@@ -1,10 +1,6 @@
-http://samwhelp.github.io/book-ubuntu-qna/
-http://samwhelp.github.io/book-ubuntu-qna/read/case/google-chrome/install.html
-http://samwhelp.github.io/book-ubuntu-qna/read/case/google-chrome/apt-key.html
-http://samwhelp.github.io/book-ubuntu-qna/read/case/adobe-flash-player/install.html
-http://samwhelp.github.io/book-ubuntu-qna/read/link/www.linux.org.tw.html
-http://samwhelp.github.io/book-ubuntu-qna/read/case/i18n/gettext-gnome-control-center.html
-http://samwhelp.github.io/book-ubuntu-qna/read/case/i18n/gettext-gucharmap.html
-http://samwhelp.github.io/book-ubuntu-qna/read/case/i18n/gettext-kcharselect.html
-http://samwhelp.github.io/book-ubuntu-qna/read/case/i18n/gettext-libreoffice.html
-http://samwhelp.github.io/book-ubuntu-qna/read/case/i18n/l10n-tw.html
+---
+layout: null
+---
+{% for post in site.posts %}{{ post.url | prepend: site.baseurl | prepend: site.url | escape }}
+{% endfor %}{% for post in site.pages %}{% if post.url contains '/read/' or post.url == '/' %}{{ post.url | prepend: site.baseurl | prepend: site.url | escape }}
+{% endif %}{% endfor %}
