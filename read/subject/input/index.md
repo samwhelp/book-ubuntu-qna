@@ -1,6 +1,11 @@
 ---
 layout: page
 title: 中文輸入
+description: >
+  Ubuntu環境，中文輸入安裝設定。
+parent:
+  title: 主題
+  url: '/read/subject'
 ---
 
 [原始連結](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=333556#forumpost333556)
