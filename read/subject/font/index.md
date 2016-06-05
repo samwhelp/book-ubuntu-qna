@@ -5,7 +5,7 @@ description: >
   Ubuntu環境，字型安裝設定。
 parent:
   title: 主題
-  url: '/read/subject'
+  url: /read/subject
 ---
 
 [原始連結](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=333554#forumpost333554)

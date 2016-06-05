@@ -5,7 +5,7 @@ description: >
   Ubuntu環境，如何執行指令。
 parent:
   title: 主題
-  url: '/read/subject'
+  url: /read/subject
 ---
 
 [原始連結](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=348698#forumpost348698)
