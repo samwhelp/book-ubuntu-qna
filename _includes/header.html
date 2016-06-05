@@ -3,11 +3,39 @@
 		<div class="nav-wrapper">
 			<div class="box-main-title">
 				<a class="brand-logo" href="{{ site.baseurl | append: '/' | escape }}" title="{{ site.title | escape }}">{{ site.title | escape }}</a>
+
+
 			</div>
 
 			<a href="javascript:;" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
 
 			<ul class="right hide-on-med-and-down">
+				<li>
+					<form class="form-search" target="_blank" accept-charset="utf-8" method="get" action="//www.google.com/search">
+						<div class="input-field">
+							<input type="search" id="search_top" required="required" class="ipt-keyword" placeholder="Search" maxlength="20" name="q">
+							<input type="hidden" value="http://samwhelp.github.io/book-ubuntu-qna/" name="sitesearch">
+							<label for="search_top"><i class="material-icons">search</i></label>
+							<i class="material-icons">close</i>
+						</div>
+					</form>
+				</li>
+
+				<li>
+					<form class="form-search" target="_blank" accept-charset="utf-8" method="get" action="//www.google.com/search">
+						<div class="input-field">
+							<input type="search" id="search_top_ubuntu_tw" required="required" class="ipt-keyword" placeholder="Search Ubuntu TW" maxlength="20" name="q">
+							<input type="hidden" value="https://www.ubuntu-tw.org/" name="sitesearch">
+							<label for="search_top_ubuntu_tw"><i class="material-icons">search</i></label>
+							<i class="material-icons">close</i>
+						</div>
+					</form>
+				</li>
+
+			</ul>
+
+			<ul class="right hide-on-med-and-down">
+
 				<li><a href="{{ '/read/subject/' | prepend: site.baseurl | escape }}" class="nav-btn" title="Subject">Subject</a></li>
 				<li><a href="{{ '/read/blog/' | prepend: site.baseurl | escape }}" class="nav-btn" title="Blog">Blog</a></li>
 				<li><a href="https://github.com/samwhelp/book-ubuntu-qna" class="nav-btn" target="_blank" title="Github">GitHub</a></li>
@@ -22,6 +50,29 @@
 					<li><a href="{{ '/read/subject/' | prepend: site.baseurl | escape }}" class="waves-effect waves-light" title="Subject"><span class="nav-btn">Subject</span></a></li>
 					<li><a href="{{ '/read/blog/' | prepend: site.baseurl | escape }}" class="waves-effect waves-light" title="Blog"><span class="nav-btn">Blog</span></a></li>
 					<li><a href="https://github.com/samwhelp/book-ubuntu-qna" class="waves-effect waves-light" target="_blank" title="GitHub"><span class="nav-btn">GitHub</span></a></li>
+
+					<li>
+						<form class="" target="_blank" accept-charset="utf-8" method="get" action="//www.google.com/search">
+							<div class="input-field">
+								<input type="search" id="search_side" required="required" class="ipt-keyword" placeholder="Search" maxlength="20" name="q">
+								<input type="hidden" value="http://samwhelp.github.io/book-ubuntu-qna/" name="sitesearch">
+								<label for="search_side"><i class="material-icons">search</i></label>
+								<i class="material-icons">close</i>
+							</div>
+						</form>
+					</li>
+
+					<li>
+						<form class="" target="_blank" accept-charset="utf-8" method="get" action="//www.google.com/search">
+							<div class="input-field">
+								<input type="search" id="search_side_ubuntu_tw" required="required" class="ipt-keyword" placeholder="Search Ubuntu Tw" maxlength="20" name="q">
+								<input type="hidden" value="https://www.ubuntu-tw.org/" name="sitesearch">
+								<label for="search_side_ubuntu_tw"><i class="material-icons">search</i></label>
+								<i class="material-icons">close</i>
+							</div>
+						</form>
+					</li>
+
 				</ul>
 			</div>
 
