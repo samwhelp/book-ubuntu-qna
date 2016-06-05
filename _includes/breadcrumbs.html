@@ -1,0 +1,4 @@
+
+				<a class="breadcrumb" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb" itemprop="url" href="{{ site.baseurl | append: '/' | escape }}" title="{{ site.title | escape }}"><span itemprop="title">{{ site.title | escape }}</span></a>
+				{% if page.parent %}<a class="breadcrumb" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb" itemprop="url" href="{{ page.parent.url | prepend: site.baseurl | escape }}" title="{{ page.parent.title | escape}}"><span itemprop="title">{{ page.parent.title | escape}}</span></a>{% endif %}
+				{% if page.title %}<a class="breadcrumb" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb" itemprop="url" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | escape }}" ><span itemprop="title">{{ page.title | escape }}</span></a>{% endif %}

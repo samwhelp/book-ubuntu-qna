@@ -1,6 +1,12 @@
 ---
 layout: page
 title: 有關 Adobe Flash Player 的套件
+parent:
+  title: 安裝 Adobe Flash Player
+  url: '/read/case/adobe-flash-player'
+description: >
+  Ubuntu環境，有關 Adobe Flash Player 的套件。
+  介紹如何安裝，和簡易的套件探索提示。
 ---
 
 ## 原始討論
