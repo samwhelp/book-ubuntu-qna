@@ -1,6 +1,11 @@
 ---
 layout: page
 title: 使用「chinese-l10n@googlegroups.com」當關鍵字查到的連結
+description: >
+  使用「chinese-l10n@googlegroups.com」當關鍵字查到的連結。
+parent:
+  title: 國際化與在地化
+  url: /read/case/i18n
 ---
 
 ## 原始討論

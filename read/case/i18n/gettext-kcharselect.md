@@ -1,6 +1,11 @@
 ---
 layout: page
 title: 如何找到 kcharselect 的 PO檔
+description: >
+  Ubuntu環境，如何找到 kcharselect 的 PO檔。
+parent:
+  title: 國際化與在地化
+  url: /read/case/i18n
 ---
 
 ## 原始討論

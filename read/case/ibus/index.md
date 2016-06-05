@@ -1,6 +1,8 @@
 ---
 layout: page
 title: ibus
+description: >
+  Ubuntu環境，ibus 操作實務。
 ---
 
 ## 相關討論

@@ -1,6 +1,11 @@
 ---
 layout: page
 title: 如何透過指令「ibus」來切換輸入法
+description: >
+  Ubuntu環境，如何透過指令「ibus」來切換輸入法。
+parent:
+  title: ibus
+  url: /read/case/ibus
 ---
 
 ## 原始討論

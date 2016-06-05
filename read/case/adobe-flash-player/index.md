@@ -1,6 +1,8 @@
 ---
 layout: page
 title: 安裝 Adobe Flash Player
+description: >
+  Ubuntu環境，安裝 Adobe Flash Player。
 ---
 
 ## 相關議題

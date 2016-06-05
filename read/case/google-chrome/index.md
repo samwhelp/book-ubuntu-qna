@@ -1,6 +1,8 @@
 ---
 layout: page
 title: 安裝 Google Chrome
+description: >
+  Ubuntu環境，安裝 Google Chrome。
 ---
 
 ## 相關議題

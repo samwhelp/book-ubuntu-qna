@@ -1,6 +1,8 @@
 ---
 layout: page
 title: 國際化與在地化
+description: >
+  Ubuntu環境，國際化與在地化。
 ---
 
 ## Gettext - 相關討論

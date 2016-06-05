@@ -1,6 +1,11 @@
 ---
 layout: page
 title: 安裝 Google Chrome，關於 apt-key 的管理
+description: >
+  Ubuntu環境，安裝 Google Chrome，關於 apt-key 的管理
+parent:
+  title: 安裝 Google Chrome
+  url: /read/case/google-chrome
 ---
 
 ## 原始討論

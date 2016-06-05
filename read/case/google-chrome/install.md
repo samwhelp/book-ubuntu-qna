@@ -1,6 +1,11 @@
 ---
 layout: page
 title: 如何下指令安裝 Google Chrome
+description: >
+  Ubuntu環境，如何下載Deb檔，並且下指令安裝 Google Chrome。
+parent:
+  title: 安裝 Google Chrome
+  url: /read/case/google-chrome
 ---
 
 ## 原始討論
