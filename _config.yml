@@ -15,5 +15,10 @@ url: "http://samwhelp.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
+
+#### Permalink
+permalink: '/read/article/:slug'
+
+
 # Build settings
 markdown: kramdown
