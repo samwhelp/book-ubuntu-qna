@@ -99,3 +99,5 @@ Command Substitution
 ...略...
 
 ```
+
+[接下來...](/book-ubuntu-qna/read/case/shell-script/call-function/exit-status.html)
