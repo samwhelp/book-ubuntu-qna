@@ -113,4 +113,4 @@ $ help test
 觀看相關的help
 
 
-[接下來解釋一些概念](/book-ubuntu-qna/read/case/call-function/dynamic-call-function.html)
+[接下來解釋一些概念](/book-ubuntu-qna/read/case/shell-script/call-function/command-substitution.html)
