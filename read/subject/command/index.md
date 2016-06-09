@@ -55,6 +55,7 @@ parent:
 * [如何在 php 中重新設定網路](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=334758#forumpost334758)
 * [[分享]在瀏覽檔案時，按右鍵能直接以 root 權限開啟](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=326794#forumpost326794)
 * [如何在/etc/pur-ftpd/conf下新增OR修改檔案](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=348236#forumpost348236)
+* [回覆: 請問如何將putty設為sudo權限](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=352530#forumpost352530)
 
 ## 權限 相關討論案例
 

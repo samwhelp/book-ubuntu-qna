@@ -5,6 +5,7 @@ description: >
   Shell Script 研討。
 ---
 
+
 ## 相關討論
 
 
@@ -20,11 +21,21 @@ description: >
 * [Array](/book-ubuntu-qna/read/case/shell-script/list/array.html)
 * [Array - 1](/book-ubuntu-qna/read/case/shell-script/list/array.1.html)
 
+
 ### Function Call
 
 * [Dynamic Call Function](/book-ubuntu-qna/read/case/shell-script/call-function/dynamic-call-function.html)
 * [Command Substitution](/book-ubuntu-qna/read/case/shell-script/call-function/command-substitution.html)
 * [Exit Status](/book-ubuntu-qna/read/case/shell-script/call-function/exit-status.html)
+
+
+### Set Positional Parameters
+
+* [For Dir Files](/book-ubuntu-qna/read/case/shell-script/set-positional-parameters/for-dir-files.html)
+* [For Dir Files From Positional Parameters ](/book-ubuntu-qna/read/case/shell-script/set-positional-parameters/for-dir-files-from-positional-parameters.html)
+* [for 用法說明 ](/book-ubuntu-qna/read/case/shell-script/set-positional-parameters/help-for.html)
+* [Set Positional Parameters 用法說明 ](/book-ubuntu-qna/read/case/shell-script/set-positional-parameters/set-positional-parameters.html)
+* [Unset Positional Parameters 用法說明 ](/book-ubuntu-qna/read/case/shell-script/set-positional-parameters/unset-positional-parameters.html)
 
 
 
