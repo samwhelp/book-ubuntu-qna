@@ -24,7 +24,7 @@ parent:
 
 AA()
 {
-   return 9
+	return 9
 }
 
 BB()
@@ -41,9 +41,9 @@ BB()
 
 
 if [ ! $(BB) ]; then
-   echo "Y"
+	echo "Y"
 else
-   echo "N"
+	echo "N"
 fi
 
 ```
