@@ -15,3 +15,7 @@ layout: default
 ## 輸入法
 
 * [ibus](/book-ubuntu-qna/read/case/ibus/)
+
+## Shell Script
+
+* [shell script](/book-ubuntu-qna/read/case/shell-script/)
