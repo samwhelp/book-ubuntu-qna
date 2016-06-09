@@ -19,3 +19,9 @@ description: >
 * [sort](/book-ubuntu-qna/read/case/shell-script/list/sort.html)
 * [Array](/book-ubuntu-qna/read/case/shell-script/list/array.html)
 * [Array - 1](/book-ubuntu-qna/read/case/shell-script/list/array.1.html)
+
+### Function Call
+
+* [Dynamic Call Function](/book-ubuntu-qna/read/case/shell-script/call-function/dynamic-call-function.html)
+* [Command Substitution](/book-ubuntu-qna/read/case/shell-script/call-function/command-substitution.html)
+* [Exit Status](/book-ubuntu-qna/read/case/shell-script/call-function/exit-status.html)
