@@ -43,7 +43,7 @@ for: for NAME [in WORDS ... ] ; do COMMANDS; done
 look
 
 ```
-If `in WORDS ...;' is not present, then `in [url=]"$@"[/url]' is
+If `in WORDS ...;' is not present, then `in "$@"' is
     assumed.
 
 ```
