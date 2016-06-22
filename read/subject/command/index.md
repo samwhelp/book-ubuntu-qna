@@ -86,6 +86,7 @@ parent:
 
 * [UsingTheTerminal](https://help.ubuntu.com/community/UsingTheTerminal)
 * [CommandlineHowto](https://help.ubuntu.com/community/CommandlineHowto)
+* [AdvancedCommandlineHowto](https://help.ubuntu.com/community/AdvancedCommandlineHowto)
 * [HowToReadline](https://help.ubuntu.com/community/HowToReadline)
 
 
