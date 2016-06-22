@@ -16,6 +16,10 @@ parent:
 
 對「鳥哥的私房菜」作一些重點導讀，來建立「如何執行指令」的一些需要了解的觀念。
 
+「下指令」需要使用「Terminal」，若是不曉得怎麼啟用，
+可以參考這篇「Ubuntu Community Help Wiki / [UsingTheTerminal](https://help.ubuntu.com/community/UsingTheTerminal)」，
+裡面有介紹幾個主要的桌面環境的啟用方法和快速鍵。
+
 
 ## 鳥哥的私房菜
 
@@ -77,6 +81,12 @@ parent:
 * $ man 1 [stat](http://manpages.ubuntu.com/manpages/trusty/en/man1/stat.1.html)
 * $ man 1 [ls](http://manpages.ubuntu.com/manpages/trusty/en/man1/ls.1.html)
 * $ man 8 [sudo](http://manpages.ubuntu.com/manpages/trusty/en/man8/sudo.8.html)
+
+## Ubuntu Community Help Wiki
+
+* [UsingTheTerminal](https://help.ubuntu.com/community/UsingTheTerminal)
+* [CommandlineHowto](https://help.ubuntu.com/community/CommandlineHowto)
+* [HowToReadline](https://help.ubuntu.com/community/HowToReadline)
 
 
 ## shell script
