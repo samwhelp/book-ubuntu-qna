@@ -22,12 +22,9 @@ parent:
 
 之前有寫了一篇「[Ubuntu環境下，如何使用下指令的方式查詢「額外驅動程式」](http://samwhelp.github.io/book-ubuntu-basic-skill/book/content/driver/ubuntu-drivers.html)」，
 
-這篇根據此次的討論，再重新寫一遍操作步驟。
+這篇根據此次的討論，再重新寫一遍操作步驟，介紹「ubuntu-drivers」這個指令的用法，
 
-
-「ubuntu-drivers」這個指令，
-
-我是在「Ubuntu Community Help Wiki / BinaryDriverHowto/Nvidia / [Installation without X / from the console](https://help.ubuntu.com/community/BinaryDriverHowto/Nvidia#Installation_without_X_.2BAC8_from_the_console)」看到的。
+這個指令，我是在「Ubuntu Community Help Wiki / BinaryDriverHowto/Nvidia / [Installation without X / from the console](https://help.ubuntu.com/community/BinaryDriverHowto/Nvidia#Installation_without_X_.2BAC8_from_the_console)」看到的。
 
 ### 測試環境
 
