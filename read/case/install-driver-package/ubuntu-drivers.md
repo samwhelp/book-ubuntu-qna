@@ -29,6 +29,9 @@ parent:
 
 我是在「Ubuntu Community Help Wiki / BinaryDriverHowto/Nvidia / [Installation without X / from the console](https://help.ubuntu.com/community/BinaryDriverHowto/Nvidia#Installation_without_X_.2BAC8_from_the_console)」看到的。
 
+### 測試環境
+
+* Xubuntu 16.04 64位元 英文界面
 
 ### 閱讀 help
 
