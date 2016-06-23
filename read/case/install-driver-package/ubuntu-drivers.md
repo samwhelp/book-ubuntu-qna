@@ -210,7 +210,7 @@ $ sudo apt-get install intel-microcode
 * driver   : [nvidia-361](http://packages.ubuntu.com/xenial/nvidia-361) - distro non-free recommended
 
 
-系統一開始裝好，應該預設就會安裝「[xserver-xorg-video-nouveau](http://packages.ubuntu.com/xenial/xserver-xorg-video-nouveau)」這個套件(這裡討論的是安裝Nvidia顯示卡的驅動程式)，上面的資訊有「distro free builtin」。
+系統一開始裝好，應該預設就會安裝「[xserver-xorg-video-nouveau](http://packages.ubuntu.com/xenial/xserver-xorg-video-nouveau)」這個套件，上面的資訊有「distro free builtin」。
 
 而我此時測試，先前也已經安裝了「[nvidia-361](http://packages.ubuntu.com/xenial/nvidia-361)」這個套件。
 
