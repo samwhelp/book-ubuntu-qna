@@ -8,7 +8,7 @@ layout: default
 * [安裝 Adobe Flash Player](/book-ubuntu-qna/read/case/adobe-flash-player/)
 * [安裝 NVIDIA CUDA](/book-ubuntu-qna/read/case/nvidia-cuda/)
 
-## 安裝驅動程式套件
+## 安裝驅動程式
 
 * [透過安裝驅動程式套件的方式，來安裝驅動程式](/book-ubuntu-qna/read/case/driver/install-driver-package)
 
