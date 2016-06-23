@@ -20,7 +20,7 @@ parent:
 
 這個方法，是透過「CLI(指令)」的方式，來安裝「額外的驅動程式」。
 
-之前有些了一篇「[Ubuntu環境下，如何使用下指令的方式查詢「額外驅動程式」](http://samwhelp.github.io/book-ubuntu-basic-skill/book/content/driver/ubuntu-drivers.html)」，
+之前有寫了一篇「[Ubuntu環境下，如何使用下指令的方式查詢「額外驅動程式」](http://samwhelp.github.io/book-ubuntu-basic-skill/book/content/driver/ubuntu-drivers.html)」，
 
 這篇根據此次的討論，再重新寫一遍操作步驟。
 
@@ -32,7 +32,7 @@ parent:
 ### 測試環境
 
 * Xubuntu 16.04 64位元 英文界面
-* [ubuntu-drivers-common](http://packages.ubuntu.com/xenial/ubuntu-drivers-common)    1:0.4.17.1 
+* [ubuntu-drivers-common](http://packages.ubuntu.com/xenial/ubuntu-drivers-common)    1:0.4.17.1
 
 ### 閱讀 help
 
