@@ -11,7 +11,7 @@ parent:
 
 ## 原始討論
 
-* 原始討論「[回覆: linux mint 安裝顯示卡問題](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=353072#forumpost353072)」。
+* 原始討論「[回覆: linux mint 安裝顯示卡問題](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=353072#forumpost353072)」
 * 原始討論「[回覆: [分享]ubuntu 安裝 nvidia 驅動心得](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=327392#forumpost327392)」
 
 ## 回覆內容
