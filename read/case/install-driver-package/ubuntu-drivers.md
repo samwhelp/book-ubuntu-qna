@@ -32,6 +32,7 @@ parent:
 ### 測試環境
 
 * Xubuntu 16.04 64位元 英文界面
+* [ubuntu-drivers-common](http://packages.ubuntu.com/xenial/ubuntu-drivers-common)    1:0.4.17.1 
 
 ### 閱讀 help
 
