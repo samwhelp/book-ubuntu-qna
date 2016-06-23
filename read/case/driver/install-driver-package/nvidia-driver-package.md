@@ -5,7 +5,7 @@ description: >
   Ubuntu環境，如何找出「Nvidia驅動程式套件」。
 parent:
   title: 透過安裝驅動程式套件的方式，來安裝驅動程式
-  url: /read/case/install-driver-package
+  url: /read/case/driver/install-driver-package
 ---
 
 
@@ -19,7 +19,7 @@ parent:
 
 ## 方法一
 
-參考『[如何使用「ubuntu-drivers」這個指令，來輔助安裝驅動程式套件](/book-ubuntu-qna/read/case/install-driver-package/ubuntu-drivers.html)』這篇的說明。
+參考『[如何使用「ubuntu-drivers」這個指令，來輔助安裝驅動程式套件](/book-ubuntu-qna/read/case/driver/install-driver-package/ubuntu-drivers.html)』這篇的說明。
 
 
 ## 方法二
