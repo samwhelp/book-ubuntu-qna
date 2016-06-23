@@ -68,7 +68,7 @@ nvidia-settings					install
 
 如何查詢套件是否已經安裝在系統上，可以閱讀「[如何知道某個套件是否已經安裝](http://samwhelp.github.io/book-ubuntu-basic-skill/book/content/package/how-to-figure-out-package-installed.html)」。
 
-「Nvidia驅動程式套件」的概念，可以閱讀『[如何找出「Nvidia驅動程式套件」]((/book-ubuntu-qna/read/case/driver/install-driver-package/nvidia-driver-package.html))』這篇。
+「Nvidia驅動程式套件」的概念，可以閱讀『[如何找出「Nvidia驅動程式套件」](/book-ubuntu-qna/read/case/driver/install-driver-package/nvidia-driver-package.html)』這篇。
 
 
 ## 方法二
