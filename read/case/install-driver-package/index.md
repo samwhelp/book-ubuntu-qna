@@ -9,7 +9,7 @@ description: >
 
 * [如何使用「ubuntu-drivers」這個指令，來輔助安裝驅動程式套件](/book-ubuntu-qna/read/case/install-driver-package/ubuntu-drivers.html)
 * [如何找出「Nvidia驅動程式套件」](/book-ubuntu-qna/read/case/install-driver-package/nvidia-driver-package.html)
-
+* [如何確認「Nvidia驅動程式」是否已經安裝](/book-ubuntu-qna/read/case/install-driver-package/is-nvidia-driver-installed.html)
 
 ## Ubuntu Community Help Wiki
 
