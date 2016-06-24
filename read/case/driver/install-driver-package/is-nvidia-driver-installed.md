@@ -182,3 +182,45 @@ $ dpkg -L nvidia-361
 上面這個指令，就是查詢「[nvidia-361](http://packages.ubuntu.com/xenial/nvidia-361)」這個套件，安裝那些檔案在系統上，顯示的「[file list](http://packages.ubuntu.com/xenial/amd64/nvidia-361/filelist)」，也可以在網頁上找到。
 
 這個用法，可以參考「[如何查詢某個套件安裝在系統上的所有檔案](http://samwhelp.github.io/book-ubuntu-basic-skill/book/content/package/how-to-find-out-list-of-files-installed-by-a-package.html)」這篇。
+
+
+然後執行
+
+``` sh
+$ grep '/lib/nvidia-361/modprobe.conf' /var/lib/dpkg/info/* -R
+```
+
+顯示
+
+```
+/var/lib/dpkg/info/nvidia-361.list:/lib/nvidia-361/modprobe.conf
+/var/lib/dpkg/info/nvidia-361.postinst:            --slave /etc/modprobe.d/nvidia-graphics-drivers.conf x86_64-linux-gnu_nvidia_modconf /lib/nvidia-361/modprobe.conf \
+/var/lib/dpkg/info/nvidia-361.postinst:            --slave /etc/modprobe.d/nvidia-graphics-drivers.conf x86_64-linux-gnu_nvidia_modconf /lib/nvidia-361/modprobe.conf \
+```
+
+
+執行
+
+```
+$ ls /etc/modprobe.d/nvidia-graphics-drivers.conf -l
+```
+，
+顯示
+
+```
+lrwxrwxrwx 1 root root 49 Apr 24 21:37 /etc/modprobe.d/nvidia-graphics-drivers.conf -> /etc/alternatives/x86_64-linux-gnu_nvidia_modconf
+```
+
+執行
+
+``` sh
+$ ls /etc/alternatives/x86_64-linux-gnu_nvidia_modconf -l
+```
+
+顯示
+
+``` sh
+lrwxrwxrwx 1 root root 29 Apr 24 21:37 /etc/alternatives/x86_64-linux-gnu_nvidia_modconf -> /lib/nvidia-361/modprobe.conf
+```
+
+也就是「/etc/modprobe.d/nvidia-graphics-drivers.conf」是link到「/lib/nvidia-361/modprobe.conf」。
