@@ -89,10 +89,12 @@ nvidia              10076160  88 nvidia_modeset,nvidia_uvm
 drm                   360448  9 i915,drm_kms_helper,nvidia
 ```
 
-相關的概念，請閱讀「鳥哥的私房菜 / 第十九章、開機流程、模組管理與 Loader / [19.2.2 核心模組的觀察： lsmod, modinfo](http://linux.vbird.org/linux_basic/0510osloader.php#kernel_look)」。
+相關的概念，
+
+請閱讀「鳥哥的私房菜 / 第十九章、開機流程、模組管理與 Loader / [19.2.2 核心模組的觀察： lsmod, modinfo](http://linux.vbird.org/linux_basic/0510osloader.php#kernel_look)」。
 
 
-進一步可以查詢模組相關資訊
+進一步可以查詢模組的相關資訊
 
 執行
 
@@ -224,3 +226,130 @@ lrwxrwxrwx 1 root root 29 Apr 24 21:37 /etc/alternatives/x86_64-linux-gnu_nvidia
 ```
 
 也就是「/etc/modprobe.d/nvidia-graphics-drivers.conf」是link到「/lib/nvidia-361/modprobe.conf」。
+
+接下來研究「/etc/modprobe.d/」的用法。
+
+執行
+
+``` sh
+$ dpkg -S /etc/modprobe.d
+```
+
+顯示
+
+```
+intel-microcode, osspd, udev, nvidia-361, xserver-xorg-video-vmware, kmod, alsa-base, dkms, linux-sound-base: /etc/modprobe.d
+```
+
+觀察最接近我們要找的套件「[kmod](http://packages.ubuntu.com/xenial/kmod)」。
+
+執行
+
+``` sh
+$ dpkg -L kmod
+```
+
+顯示
+
+```
+/.
+/sbin
+/etc
+/etc/init.d
+/etc/init.d/kmod
+/etc/modprobe.d
+/etc/modprobe.d/blacklist-ath_pci.conf
+/etc/modprobe.d/mlx4.conf
+/etc/modprobe.d/blacklist.conf
+/etc/modprobe.d/iwlwifi.conf
+/etc/modprobe.d/blacklist-rare-network.conf
+/etc/modprobe.d/blacklist-framebuffer.conf
+/etc/modprobe.d/blacklist-watchdog.conf
+/etc/modprobe.d/blacklist-firewire.conf
+/etc/init
+/etc/init/kmod.conf
+/etc/depmod.d
+/etc/depmod.d/ubuntu.conf
+/bin
+/bin/kmod
+/lib
+/lib/modprobe.d
+/lib/modprobe.d/aliases.conf
+/usr
+/usr/share
+/usr/share/initramfs-tools
+/usr/share/initramfs-tools/hooks
+/usr/share/initramfs-tools/hooks/kmod
+/usr/share/bash-completion
+/usr/share/bash-completion/completions
+/usr/share/bash-completion/completions/kmod
+/usr/share/doc
+/usr/share/doc/libkmod2
+/usr/share/doc/libkmod2/TODO
+/usr/share/doc/libkmod2/README
+/usr/share/man
+/usr/share/man/fr
+/usr/share/man/fr/man5
+/usr/share/man/fr/man5/modules.5.gz
+/usr/share/man/man8
+/usr/share/man/man8/depmod.8.gz
+/usr/share/man/man8/kmod.8.gz
+/usr/share/man/man8/modinfo.8.gz
+/usr/share/man/man8/insmod.8.gz
+/usr/share/man/man8/lsmod.8.gz
+/usr/share/man/man8/rmmod.8.gz
+/usr/share/man/man8/modprobe.8.gz
+/usr/share/man/man5
+/usr/share/man/man5/modprobe.d.5.gz
+/usr/share/man/man5/modules.dep.5.gz
+/usr/share/man/man5/modules.5.gz
+/usr/share/man/man5/depmod.d.5.gz
+/sbin/rmmod
+/sbin/depmod
+/sbin/modprobe
+/sbin/modinfo
+/sbin/insmod
+/sbin/lsmod
+/bin/lsmod
+/usr/share/doc/kmod
+/usr/share/man/man5/modules.dep.bin.5.gz
+```
+
+有看到「/usr/share/man/man5/modprobe.d.5.gz」
+
+也可以執行下面指令，找出有那些manpage可以閱讀
+
+``` sh
+$ dpkg -L kmod | grep '/man/man.*/' | sort
+```
+
+顯示
+
+```
+/usr/share/man/man5/depmod.d.5.gz
+/usr/share/man/man5/modprobe.d.5.gz
+/usr/share/man/man5/modules.5.gz
+/usr/share/man/man5/modules.dep.5.gz
+/usr/share/man/man5/modules.dep.bin.5.gz
+/usr/share/man/man8/depmod.8.gz
+/usr/share/man/man8/insmod.8.gz
+/usr/share/man/man8/kmod.8.gz
+/usr/share/man/man8/lsmod.8.gz
+/usr/share/man/man8/modinfo.8.gz
+/usr/share/man/man8/modprobe.8.gz
+/usr/share/man/man8/rmmod.8.gz
+```
+
+所以你可以執行
+
+$ man [modprobe.d](http://manpages.ubuntu.com/manpages/xenial/en/man5/modprobe.d.5.html)
+
+或是執行
+
+$ man 5 [modprobe.d](http://manpages.ubuntu.com/manpages/xenial/en/man5/modprobe.d.5.html)
+
+或是執行
+
+$ man [/usr/share/man/man5/modprobe.d.5.gz](http://manpages.ubuntu.com/manpages/xenial/en/man5/modprobe.d.5.html)
+
+來閱讀。
