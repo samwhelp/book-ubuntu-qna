@@ -13,7 +13,7 @@ parent:
 
 ## 相關討論
 
-* [linux mint 安裝顯示卡問題](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=352972#forumpost352972)
+* [回覆: linux mint 安裝顯示卡問題](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=353072#forumpost353072)
 * [回覆: [急]及新手問題 最近買了ASUS外顯 可是卻步知道怎麼裝驅動](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=333346#forumpost333346)
 * [回覆: 請問如何查找驅動程式](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=349080#forumpost349080)
 * [安裝完nvidia驅動 登入後畫面整個黑的](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=333258#forumpost333258)

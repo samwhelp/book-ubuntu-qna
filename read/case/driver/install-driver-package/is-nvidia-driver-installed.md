@@ -228,7 +228,7 @@ $ ls /etc/alternatives/x86_64-linux-gnu_nvidia_modconf -l
 lrwxrwxrwx 1 root root 29 Apr 24 21:37 /etc/alternatives/x86_64-linux-gnu_nvidia_modconf -> /lib/nvidia-361/modprobe.conf
 ```
 
-也就是「/etc/modprobe.d/nvidia-graphics-drivers.conf」是link到「/lib/nvidia-361/modprobe.conf」。
+也就是「/etc/modprobe.d/nvidia-graphics-drivers.conf」是symbolic link到「/lib/nvidia-361/modprobe.conf」。
 
 
 ## modprobe.d
