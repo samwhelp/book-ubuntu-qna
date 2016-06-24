@@ -352,4 +352,41 @@ $ man 5 [modprobe.d](http://manpages.ubuntu.com/manpages/xenial/en/man5/modprobe
 
 $ man [/usr/share/man/man5/modprobe.d.5.gz](http://manpages.ubuntu.com/manpages/xenial/en/man5/modprobe.d.5.html)
 
+
 來閱讀。
+
+## 查詢目前套用的設定
+
+執行
+
+``` sh
+$ modprobe -c | grep nvidia | less
+```
+
+顯示
+
+```
+blacklist nvidiafb
+blacklist nvidia_current
+blacklist nvidia_173
+blacklist nvidia_96
+blacklist nvidia_current_updates
+blacklist nvidia_173_updates
+blacklist nvidia_96_updates
+blacklist nvidia_361_updates
+alias nvidia nvidia_361
+alias nvidia_uvm nvidia_361_uvm
+alias nvidia_modeset nvidia_361_modeset
+alias char_major_195_* nvidia_361
+alias mbp_nvidia_bl apple_bl
+alias pci:v000010DEd*sv*sd*bc03sc*i* nvidiafb
+alias pci:v000010DEd*sv*sd*bc03sc00i00* nvidia_361
+alias pci:v000010DEd*sv*sd*bc03sc02i00* nvidia_361
+alias pci:v000010DEd00000E00sv*sd*bc04sc80i00* nvidia_361
+alias symbol:nvKmsKapiGetFunctionsTable nvidia_361_modeset
+alias symbol:nvUvmInterfaceAddressSpaceCreate nvidia_361
+alias symbol:nvUvmInterfaceAddressSpaceCreateMirrored nvidia_361
+alias symbol:nvUvmInterfaceAddressSpaceDestroy nvidia_361
+alias symbol:nvUvmInterfaceBindChannel nvidia_361
+...略...
+```
