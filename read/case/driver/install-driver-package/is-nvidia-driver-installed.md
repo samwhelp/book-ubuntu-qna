@@ -93,6 +93,7 @@ drm                   360448  9 i915,drm_kms_helper,nvidia
 
 請閱讀「鳥哥的私房菜 / 第十九章、開機流程、模組管理與 Loader / [19.2.2 核心模組的觀察： lsmod, modinfo](http://linux.vbird.org/linux_basic/0510osloader.php#kernel_look)」。
 
+## modinfo
 
 進一步可以查詢模組的相關資訊
 
@@ -138,6 +139,8 @@ parm:           NVreg_RmMsg:charp
 parm:           NVreg_AssignGpus:charp
 
 ```
+
+## alias
 
 至於為什麼是「nvidia_361」而不是「nvidia」，
 
@@ -226,6 +229,9 @@ lrwxrwxrwx 1 root root 29 Apr 24 21:37 /etc/alternatives/x86_64-linux-gnu_nvidia
 ```
 
 也就是「/etc/modprobe.d/nvidia-graphics-drivers.conf」是link到「/lib/nvidia-361/modprobe.conf」。
+
+
+## modprobe.d
 
 接下來研究「/etc/modprobe.d/」的用法。
 
