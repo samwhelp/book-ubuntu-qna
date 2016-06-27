@@ -256,4 +256,4 @@ nvidia-304-updates
 * [nvidia-304-updates](http://packages.ubuntu.com/xenial/nvidia-304-updates)
 
 
-找出「Nvidia驅動程式套件」，可以參考『[如何找出「Nvidia驅動程式套件」](/book-ubuntu-qna/read/case/install-driver-package/nvidia-driver-package.html)』的說明。
+找出「Nvidia驅動程式套件」，可以參考『[如何找出「Nvidia驅動程式套件」](/book-ubuntu-qna/read/case/driver/install-driver-package/nvidia-driver-package.html)』的說明。
