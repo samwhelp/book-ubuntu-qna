@@ -323,7 +323,6 @@ done
 * [linux-generic](http://packages.ubuntu.com/xenial/linux-generic)
 * [linux-image-generic](http://packages.ubuntu.com/xenial/linux-image-generic)
 * [linux-image-4.4.0-28-generic](http://packages.ubuntu.com/xenial/linux-image-4.4.0-28-generic)
-* [linux-image-4.4.0-28-generic](http://packages.ubuntu.com/xenial/linux-image-4.4.0-28-generic)
 * [linux-image-extra-4.4.0-28-generic](http://packages.ubuntu.com/xenial/linux-image-extra-4.4.0-28-generic)
 
 ## concept

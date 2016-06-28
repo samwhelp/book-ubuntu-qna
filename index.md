@@ -18,7 +18,7 @@ layout: default
 
 ## Linux Package
 
-* [Linux Package](/book-ubuntu-qna/read/case/linux-package/)
+* [Linux Package](/book-ubuntu-qna/read/case/linux-package/) (kernel)
 
 ## 國際化與在地化
 
