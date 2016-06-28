@@ -9,7 +9,27 @@ parent:
 ---
 
 
-延續上一篇「[update linux-generic](/book-ubuntu-qna/read/case/linux-package/update-linux-generic.html)」觀察到的訊息。
+先執行
+
+``` sh
+$ sudo update-grub
+```
+
+顯示
+
+```
+Generating grub configuration file ...
+Warning: Setting GRUB_TIMEOUT to a non-zero value when GRUB_HIDDEN_TIMEOUT is set is no longer supported.
+Found linux image: /boot/vmlinuz-4.4.0-28-generic
+Found initrd image: /boot/initrd.img-4.4.0-28-generic
+Found linux image: /boot/vmlinuz-4.4.0-21-generic
+Found initrd image: /boot/initrd.img-4.4.0-21-generic
+Found memtest86+ image: /boot/memtest86+.elf
+Found memtest86+ image: /boot/memtest86+.bin
+done
+```
+
+然後延續上一篇「[update linux-generic](/book-ubuntu-qna/read/case/linux-package/update-linux-generic.html)」觀察到的訊息。
 
 ```
 ...略...
