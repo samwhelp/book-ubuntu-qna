@@ -14,7 +14,11 @@ layout: default
 
 ## 安裝驅動程式
 
-* [透過安裝驅動程式套件的方式，來安裝驅動程式](/book-ubuntu-qna/read/case/driver/install-driver-package)
+* [透過安裝驅動程式套件的方式，來安裝驅動程式](/book-ubuntu-qna/read/case/driver/install-driver-package/)
+
+## Linux Package
+
+* [Linux Package](/book-ubuntu-qna/read/case/linux-package/)
 
 ## 國際化與在地化
 
