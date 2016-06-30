@@ -5,7 +5,7 @@ description: >
   探索套件「cuda-repo-ubuntu1404-7-5-local」。
 parent:
   title: 安裝 NVIDIA CUDA
-  url: /read/case/nvidia-cuda
+  url: /read/case/app/nvidia-cuda
 ---
 
 ## 原始討論
