@@ -6,7 +6,7 @@ description: >
   介紹如何安裝，和簡易的套件探索提示。
 parent:
   title: 安裝 Adobe Flash Player
-  url: '/read/case/adobe-flash-player'
+  url: '/read/case/app/adobe-flash-player'
 ---
 
 ## 原始討論
