@@ -26,7 +26,7 @@ layout: default
 
 ## 輸入法
 
-* [ibus](/book-ubuntu-qna/read/case/ibus/)
+* [ibus](/book-ubuntu-qna/read/case/input/ibus/)
 
 ## Shell Script
 

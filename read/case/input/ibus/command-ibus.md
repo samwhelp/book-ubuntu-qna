@@ -5,7 +5,7 @@ description: >
   Ubuntu環境，如何透過指令「ibus」來切換輸入法。
 parent:
   title: ibus
-  url: /read/case/ibus
+  url: /read/case/input/ibus
 ---
 
 ## 原始討論
