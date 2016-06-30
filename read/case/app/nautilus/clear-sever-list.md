@@ -179,14 +179,16 @@ nautilus-3.18.4.is.3.14.3/src/nautilus-application.c:           filename = g_bui
 
 ## 測試參考程式碼
 
-### [g_get_user_config_dir](https://developer.gnome.org/glib/stable/glib-Miscellaneous-Utility-Functions.html#g-get-user-config-dir)
+### 測試 [g_get_user_config_dir](https://developer.gnome.org/glib/stable/glib-Miscellaneous-Utility-Functions.html#g-get-user-config-dir)
+
+產生專案資料夾
 
 ``` sh
 $ mkdir test_g_get_user_config_dir
 $ cd test_g_get_user_config_dir
 ```
 
-test_g_get_user_config_dir/main.c
+[test_g_get_user_config_dir/main.c](/book-ubuntu-qna/read/case/app/nautilus/example/test_g_get_user_config_dir/main.c)
 
 ``` c
 #include <stdio.h>
@@ -201,13 +203,18 @@ main (int argc, char *argv[])
         exit (EXIT_SUCCESS);
 
 }
-
 ```
 
-test_g_get_user_config_dir/build.sh
+[test_g_get_user_config_dir/build.sh](/book-ubuntu-qna/read/case/app/nautilus/example/test_g_get_user_config_dir/build.sh)
 
 ```
 gcc main.c -o test $(pkg-config --cflags --libs glib-2.0)
+```
+
+將「build.sh」設為擁有者可執行。
+
+``` sh
+$ chmod u+x build.sh
 ```
 
 執行編譯
@@ -233,14 +240,16 @@ $ ./test
 注意: 上面那個「user」會隨執行的環境而定。
 
 
-### [g_build_filename](https://developer.gnome.org/glib/stable/glib-Miscellaneous-Utility-Functions.html#g-build-filename)
+### 測試 [g_build_filename](https://developer.gnome.org/glib/stable/glib-Miscellaneous-Utility-Functions.html#g-build-filename)
+
+產生專案資料夾
 
 ``` sh
 $ mkdir test_g_build_filename
 $ cd test_g_build_filename
 ```
 
-test_g_build_filename/main.c
+[test_g_build_filename/main.c](/book-ubuntu-qna/read/case/app/nautilus/example/test_g_build_filename/main.c)
 
 ``` c
 #include <stdio.h>
@@ -255,13 +264,18 @@ main (int argc, char *argv[])
         exit (EXIT_SUCCESS);
 
 }
-
 ```
 
-test_g_build_filename/build.sh
+[test_g_build_filename/build.sh](/book-ubuntu-qna/read/case/app/nautilus/example/test_g_build_filename/build.sh)
 
 ``` sh
 gcc main.c -o test $(pkg-config --cflags --libs glib-2.0)
+```
+
+將「build.sh」設為擁有者可執行。
+
+``` sh
+$ chmod u+x build.sh
 ```
 
 執行編譯
