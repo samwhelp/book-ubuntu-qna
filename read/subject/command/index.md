@@ -92,6 +92,7 @@ parent:
 
 ## shell script
 
+* [回覆: 「Mozilla Firefox 官方版」更新腳本](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=353262#forumpost353262)
 * [function去呼叫function](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=350648#forumpost350648)
 * [shell中 `` 與()問題請教](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=350768#forumpost350768)
 * [「set --」的用法?](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=350924#forumpost350924)

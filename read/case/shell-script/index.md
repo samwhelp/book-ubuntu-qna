@@ -37,7 +37,9 @@ description: >
 * [Set Positional Parameters 用法說明 ](/book-ubuntu-qna/read/case/shell-script/set-positional-parameters/set-positional-parameters.html)
 * [Unset Positional Parameters 用法說明 ](/book-ubuntu-qna/read/case/shell-script/set-positional-parameters/unset-positional-parameters.html)
 
+## Redirection
 
+* [案例 001](/book-ubuntu-qna/read/case/shell-script/redirection/case_001.html)
 
 ## 文件
 
