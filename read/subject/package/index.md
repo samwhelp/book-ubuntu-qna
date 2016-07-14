@@ -19,12 +19,12 @@ parent:
 
 ## 套件查詢
 
-* Ubuntu / [apps](https://apps.ubuntu.com/cat/)
+* Ubuntu / [Apps](https://apps.ubuntu.com/cat/)
 * Ubuntu / [Packages](http://packages.ubuntu.com/)
 
 ## Manual
 
-* Ubuntu / [manuals](http://manpages.ubuntu.com/)
+* Ubuntu / [Manuals](http://manpages.ubuntu.com/)
 
 ## 相關討論 - 安裝 Chrome
 
