@@ -38,3 +38,4 @@ parent:
 * [Eclipse](https://eclipse.org/downloads/)
 * [Qt Creator](https://www.qt.io/ide/)
 * [Anjuta](http://anjuta.org/)
+* [MonoDevelop](http://www.monodevelop.com/)
