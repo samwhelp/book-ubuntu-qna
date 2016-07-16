@@ -6,6 +6,10 @@ layout: default
 
 * [Ubuntu Release Cdimage](/book-ubuntu-qna/read/case/release-cdimage/)
 
+## 基本技巧
+
+* [如何探索「Ubuntu」](/book-ubuntu-qna/read/howto/exploration/)
+
 ## 安裝套件
 
 * [安裝 Google Chrome](/book-ubuntu-qna/read/case/app/google-chrome/)
