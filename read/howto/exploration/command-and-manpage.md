@@ -118,5 +118,6 @@ The table below shows the section numbers of the manual followed by the types of
 A manual page consists of several sections.
 ```
 
+## 後續
 
-接下來來了解，如何『[從「指令」找到「所屬套件」](/book-ubuntu-qna/read/howto/exploration/command-and-package.html)』。
+接下來，來了解，如何『[從「指令」找到「所屬套件」](/book-ubuntu-qna/read/howto/exploration/command-and-package.html)』。

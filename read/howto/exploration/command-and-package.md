@@ -73,5 +73,6 @@ coreutils: /bin/ls
 
 表示「/bin/ls」，也就是「[ls](http://manpages.ubuntu.com/manpages/xenial/en/man1/ls.1.html)」這個指令，是屬於「[coreutils](http://packages.ubuntu.com/xenial/coreutils)」這個套件。
 
+## 後續
 
-待續...
+接下來，『[找「已安裝套件」的「檔案列表」](/book-ubuntu-qna/read/howto/exploration/package-installed-filelist.html)』。
