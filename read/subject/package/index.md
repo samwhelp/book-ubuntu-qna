@@ -34,11 +34,12 @@ parent:
 
 
 ## 相關討論
+
+* [回覆: NetworkManager如何設定成不更新不升級?](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=353756#forumpost353756)
 * [回覆: unmet dependencies && broken packages](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=352414#forumpost352414)
 * [回覆: ufw 之user.roles在哪邊?](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=348810#forumpost348810)
 * [回覆: 請問軟體安裝及執行問題](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=348392#forumpost348392)
 * [簡易的建立自己的套件庫](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=342070#forumpost342070)
-
 * [apt-offline 的使用方式(回覆: 無網路下安裝套件)](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=342438#forumpost342438)
 * [Ubuntu環境下，如何查詢某個檔案，屬於哪個套件](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=334876#forumpost334876)
 * [何謂「MetaPackage」](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=331336#forumpost331336)
