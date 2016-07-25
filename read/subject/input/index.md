@@ -14,6 +14,7 @@ parent:
 ## 相關討論
 
 
+
 * [回覆: [求助] 新手詢問：如何安裝香港補字元集？](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=347902#forumpost347902)
 * [「hime」不能在「geany」輸入中文的解法](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=331494#forumpost331494)
 * [gcin：更新大易三碼與四碼整合完成下載！取名〔龍飛輸入法〕](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?topic_id=94930)
@@ -26,6 +27,8 @@ parent:
 * [回覆: [Help] iBus 可否由程式控制切換?](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=351838#forumpost351838)
 * [回覆: 我的KOrganizer無法切換中文](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=351812#forumpost351812)
 * [回覆: 裝了 ubuntu 16.04 lts 64位元版 一直無法輸入中文](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=352222#forumpost352222)
+* [回覆: 安裝 ubuntu server 1604時發生這樣的問題](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=353592#forumpost353592)
+* [回覆: 幫幫忙，我想用 Lubuntu 16.04.1](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=353828#forumpost353828)
 
 
 * [kubuntu 15.10 fcitx 無法安裝啟用倉頡輸入法,求救... !](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=350466#forumpost350466)

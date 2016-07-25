@@ -44,6 +44,7 @@ parent:
 * [關於debian 8 時間伺服器設定的問題](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=339748#forumpost339748) (systemd的操作範例)
 * [嚴重卡關ing](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=340194#forumpost340194)
 * [安裝ubuntu時偵測不到win7 @@](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=341180#forumpost341180)
+* [安裝 ubuntu server 1604時發生這樣的問題](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=353544#forumpost353544)
 
 
 ## 套件查詢
