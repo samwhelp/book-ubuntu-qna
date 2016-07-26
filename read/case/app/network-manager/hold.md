@@ -313,7 +313,7 @@ After this operation, 329 MB of additional disk space will be used.
 Do you want to continue? [Y/n]
 ```
 
-## unhold
+## 復原
 
 若要「取消hold」，只要執行下面指令就行了。
 
