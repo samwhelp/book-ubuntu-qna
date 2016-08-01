@@ -87,7 +87,7 @@ parent:
 * [回覆: 請問如何取消視窗置頂功能](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=351846#forumpost351846)
 * [回覆: 請問16.04的軟體中心無法連線之問題](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=351814#forumpost351814)
 * [回覆: opera 36 如何安裝 adobe flash player](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=351832#forumpost351832)
-
+* [回覆: [自製注音輸入法表格分享]全字庫注音2016年05月份版本](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=354132#forumpost354132)
 * [Mac透過指令更新的說明](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=335644#forumpost335644)
 
 
