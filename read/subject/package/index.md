@@ -13,7 +13,10 @@ parent:
 
 ## 說明
 
-可以參考我寫的「[在泛Ubuntu的環境底下，一些套件相關的技巧](http://samwhelp.github.io/book-ubuntu-basic-skill/book/content/package/index.html)」，和下面的案例討論交互著看，
+可以參考我寫的「[如何探索Ubuntu](http://samwhelp.github.io/book-ubuntu-qna/read/howto/exploration/)」和「[在泛Ubuntu的環境底下，一些套件相關的技巧](http://samwhelp.github.io/book-ubuntu-basic-skill/book/content/package/index.html)」，
+
+搭配下面的案例討論交互著看，
+
 我在下面的討論回覆，或多或少都有提到相關的操作技巧。
 
 
