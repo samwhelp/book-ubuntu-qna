@@ -38,6 +38,10 @@ layout: default
 
 * [ibus](/book-ubuntu-qna/read/case/input/ibus/)
 
+## 檔案
+
+* [檔案的壓縮與解壓縮](/book-ubuntu-qna/read/case/file-compression)
+
 ## Shell Script
 
 * [shell script](/book-ubuntu-qna/read/case/shell-script/)
