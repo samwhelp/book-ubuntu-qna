@@ -215,7 +215,7 @@ Archive:  Open_Data.zip
 執行下面指令，觀看「Open_Data」這個資料夾的結構
 
 ``` sh
-$ tree
+$ tree Open_Data
 ```
 
 顯示
