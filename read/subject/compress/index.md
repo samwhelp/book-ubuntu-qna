@@ -30,7 +30,11 @@ parent:
 
 ## 「鳥哥的 Linux 私房菜」的參考文件
 
- * [第九章、檔案與檔案系統的壓縮與打包](http://linux.vbird.org/linux_basic/0240tarcompress.php)
+* [第九章、檔案與檔案系統的壓縮與打包](http://linux.vbird.org/linux_basic/0240tarcompress.php)
+
+## 其他參考文章
+
+* [GNU / Linux 各種壓縮與解壓縮指令](http://note.drx.tw/2008/04/command.html)
 
 
 ## 「Ubuntu 」官方參考文件
