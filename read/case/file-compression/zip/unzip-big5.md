@@ -287,3 +287,47 @@ Open_Data
 
 6 directories, 56 files
 ```
+
+## 另一個方式
+
+若上面「unzip -O big5」的方式失效的話，還有另一個方式。
+
+執行下面指令解壓縮
+
+``` sh
+$ LANG=C unzip Open_Data.zip
+```
+
+然後透過「convmv」這個指令，把呈現亂碼的檔案名稱，改回正常的檔名。
+
+``` sh
+$ convmv -f BIG5 -t UTF-8 -r Open_Data --notest
+```
+
+若是沒有使用「--notest」這個參數，則是觀看模擬更改的結果，並不會真的執行。
+
+``` sh
+$ convmv -f BIG5 -t UTF-8 -r Open_Data
+```
+
+注意：要使用「[convmv](http://manpages.ubuntu.com/manpages/xenial/en/man1/convmv.1.html)」這個指令，需要執行下面的指令先安裝「[convmv](http://packages.ubuntu.com/xenial/convmv)」這個套件
+
+``` sh
+$ sudo apt-get install convmv
+```
+
+這個方法，除了透過「[unzip](http://manpages.ubuntu.com/manpages/xenial/en/man1/unzip.1.html)」來解開壓縮檔，也可以透過「[7z](http://manpages.ubuntu.com/manpages/xenial/en/man1/7z.1.html)」來解開。
+
+``` sh
+$ LANG=C 7z x Open_Data.zip
+```
+
+然後一樣執行
+
+``` sh
+$ convmv -f BIG5 -t UTF-8 -r Open_Data --notest
+```
+
+## 其他的方式
+
+還有其他的方式，請參考上面提到的原始討論。
