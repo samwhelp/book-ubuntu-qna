@@ -145,6 +145,6 @@ $ sudo apt-get install fonts-cns11643-kai fonts-cns11643-sung
 * [Ubuntu環境下，一些字型套件](https://samwhelp.github.io/book-ubuntu-basic-skill/book/content/font/font-package.html)
 
 
-## github
+## GitHub
 
 * [https://github.com/fourdollars/fonts-cns11643](https://github.com/fourdollars/fonts-cns11643)
