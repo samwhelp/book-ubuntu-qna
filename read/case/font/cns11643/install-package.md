@@ -18,7 +18,7 @@ parent:
 * Xubuntu 16.04 64位元
 
 
-## 查詢
+## 查詢套件
 
 執行
 
@@ -132,7 +132,7 @@ $ apt-cache show fonts-cns11643-kai fonts-cns11643-sung
 
 可以同時顯示上面的查到的資訊。
 
-## 安裝
+## 安裝套件
 
 執行
 
@@ -140,7 +140,7 @@ $ apt-cache show fonts-cns11643-kai fonts-cns11643-sung
 $ sudo apt-get install fonts-cns11643-kai fonts-cns11643-sung
 ```
 
-## 檔案列表
+## 套件檔案列表
 
 ### fonts-cns11643-kai
 
@@ -196,7 +196,7 @@ $ dpkg -L fonts-cns11643-sung
 /usr/share/doc/fonts-cns11643-sung/copyright
 ```
 
-## 移除
+## 移除套件
 
 執行
 
