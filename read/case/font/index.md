@@ -8,6 +8,8 @@ description: >
 ## 相關討論
 
 * [手動安裝全字庫字型(CNS11643)](/book-ubuntu-qna/read/case/font/cns11643/install.html)
+* [套件安裝全字庫字型(CNS11643)](/book-ubuntu-qna/read/case/font/cns11643/install-package.html)
+
 
 
 ## Manpage
