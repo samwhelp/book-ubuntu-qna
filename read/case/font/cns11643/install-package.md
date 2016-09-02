@@ -140,6 +140,77 @@ $ apt-cache show fonts-cns11643-kai fonts-cns11643-sung
 $ sudo apt-get install fonts-cns11643-kai fonts-cns11643-sung
 ```
 
+## 檔案列表
+
+### fonts-cns11643-kai
+
+
+執行
+
+``` sh
+$ dpkg -L fonts-cns11643-kai
+```
+
+顯示
+
+```
+/.
+/usr
+/usr/share
+/usr/share/fonts
+/usr/share/fonts/truetype
+/usr/share/fonts/truetype/cns11643
+/usr/share/fonts/truetype/cns11643/TW-Kai-Ext-B-98_1.ttf
+/usr/share/fonts/truetype/cns11643/TW-Kai-98_1.ttf
+/usr/share/fonts/truetype/cns11643/TW-Kai-Plus-98_1.ttf
+/usr/share/doc
+/usr/share/doc/fonts-cns11643-kai
+/usr/share/doc/fonts-cns11643-kai/changelog.Debian.gz
+/usr/share/doc/fonts-cns11643-kai/copyright
+```
+
+
+### fonts-cns11643-sung
+
+執行
+
+```
+$ dpkg -L fonts-cns11643-sung
+```
+
+顯示
+
+```
+/.
+/usr
+/usr/share
+/usr/share/fonts
+/usr/share/fonts/truetype
+/usr/share/fonts/truetype/cns11643
+/usr/share/fonts/truetype/cns11643/TW-Sung-Plus-98_1.ttf
+/usr/share/fonts/truetype/cns11643/TW-Sung-Ext-B-98_1.ttf
+/usr/share/fonts/truetype/cns11643/TW-Sung-98_1.ttf
+/usr/share/doc
+/usr/share/doc/fonts-cns11643-sung
+/usr/share/doc/fonts-cns11643-sung/changelog.Debian.gz
+/usr/share/doc/fonts-cns11643-sung/copyright
+```
+
+## 移除
+
+執行
+
+``` sh
+$ sudo apt-get remove fonts-cns11643-kai fonts-cns11643-sung
+```
+
+或是執行
+
+``` sh
+$ sudo apt-get purge fonts-cns11643-kai fonts-cns11643-sung
+```
+
+
 ## 延伸閱讀
 
 * [Ubuntu環境下，一些字型套件](https://samwhelp.github.io/book-ubuntu-basic-skill/book/content/font/font-package.html)
