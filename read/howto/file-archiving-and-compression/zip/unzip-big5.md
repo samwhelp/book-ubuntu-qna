@@ -5,8 +5,8 @@ description: >
   解壓縮zip檔案，遇到檔案名稱是big5編碼，產生亂碼時，如何解決？
 date: 2016-08-30 16:37:20 +0800
 parent:
-  title: 檔案的壓縮與解壓縮
-  url: /read/case/file-compression
+  title: 檔案的打包以及壓縮與解壓縮
+  url: /read/case/file-archiving-and-compression
 ---
 
 ## 原始討論

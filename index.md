@@ -40,7 +40,7 @@ layout: default
 
 ## 檔案
 
-* [檔案的壓縮與解壓縮](/book-ubuntu-qna/read/case/file-compression)
+* [檔案的打包以及壓縮與解壓縮](/book-ubuntu-qna/read/howto/file-archiving-and-compression)
 
 ## Shell Script
 
