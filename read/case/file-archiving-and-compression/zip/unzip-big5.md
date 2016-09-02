@@ -2,7 +2,7 @@
 layout: page
 title: 解壓縮zip檔案，遇到檔案名稱是big5編碼，產生亂碼時，如何解決？
 description: >
-  解壓縮zip檔案，遇到檔案名稱是big5編碼，產生亂碼時，如何解決？
+  Ubuntu環境，解壓縮zip檔案，遇到檔案名稱是big5編碼，產生亂碼時，如何解決？
 date: 2016-08-30 16:37:20 +0800
 parent:
   title: 檔案的打包以及壓縮與解壓縮

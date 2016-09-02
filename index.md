@@ -38,6 +38,10 @@ layout: default
 
 * [ibus](/book-ubuntu-qna/read/case/input/ibus/)
 
+## 字型
+
+* [字型的安裝與設定](/book-ubuntu-qna/read/case/font/)
+
 ## 檔案
 
 * [檔案的打包以及壓縮與解壓縮](/book-ubuntu-qna/read/case/file-archiving-and-compression)
