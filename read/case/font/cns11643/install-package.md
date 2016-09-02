@@ -140,7 +140,7 @@ $ apt-cache show fonts-cns11643-kai fonts-cns11643-sung
 $ sudo apt-get install fonts-cns11643-kai fonts-cns11643-sung
 ```
 
-## 相關文件
+## 延伸閱讀
 
 * [Ubuntu環境下，一些字型套件](https://samwhelp.github.io/book-ubuntu-basic-skill/book/content/font/font-package.html)
 
