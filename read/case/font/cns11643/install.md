@@ -13,6 +13,16 @@ parent:
 
 * Xubuntu 16.04 64位元
 
+## 前置作業
+
+### 安裝 unzip
+
+執行
+
+``` sh
+$ sudo apt-get install unzip
+```
+
 ## 操作步驟
 
 ### 建立工作資料夾
