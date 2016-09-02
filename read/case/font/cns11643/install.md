@@ -137,3 +137,7 @@ TW-Kai-Ext-B-98_1.ttf: "TW-Kai-Ext-B" "Regular"
 ## 關鍵字查詢
 
 * [全字庫](https://www.google.com.tw/#q=%E5%85%A8%E5%AD%97%E5%BA%AB)
+
+## 延伸閱讀
+
+* [一些字型設定相關的技巧](https://samwhelp.github.io/book-ubuntu-basic-skill/book/content/font/index.html)
