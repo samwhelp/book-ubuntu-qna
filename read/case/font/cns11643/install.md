@@ -138,6 +138,28 @@ TW-Sung-Plus-98_1.ttf: "TW-Sung-Plus" "Regular"
 TW-Kai-Ext-B-98_1.ttf: "TW-Kai-Ext-B" "Regular"
 ```
 
+## 閱讀相關說明
+
+執行 (因為檔案內容是「BIG5」編碼，所以使用「[iconv](http://manpages.ubuntu.com/manpages/xenial/en/man1/iconv.1.html)」來轉換成「UTF-8」編碼)
+
+``` sh
+$ cat /usr/local/share/fonts/CNS11643/全字庫字型說明文件.txt | iconv -f big5 -t utf8
+```
+
+顯示
+
+```
+png_24x24.zip   為全字庫明體點矩陣(24x24)字型檔之zip檔，可用一般解壓縮軟體解開
+TW-Kai-98_1.ttf         為全字庫正楷體向量字型檔(對應至Unicode的BMP字面)
+TW-Kai-Ext-B-98_1.ttf   為全字庫正楷體向量字型檔(對應至Unicode的第2字面)
+TW-Kai-Plus-98_1.ttf    為全字庫正楷體向量字型檔(對應至Unicode的第15字面)
+TW-Sung-98_1.ttf        為全字庫正宋體向量字型檔(對應至Unicode的BMP字面)
+TW-Sung-Ext-B-98_1.ttf  為全字庫正宋體向量字型檔(對應至Unicode的第2字面)
+TW-Sung-Plus-98_1.ttf   為全字庫正宋體向量字型檔(對應至Unicode的第15字面)
+```
+
+
+
 ## 相關網址
 
 * [http://data.gov.tw/node/5961](http://data.gov.tw/node/5961)
