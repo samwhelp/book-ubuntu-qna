@@ -31,7 +31,7 @@ $ sudo apt-get install unzip
 
 ``` sh
 $ mkdir ~/tmp -p
-$ cd tmp
+$ cd ~/tmp
 ```
 
 ### 下載
