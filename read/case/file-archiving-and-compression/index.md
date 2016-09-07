@@ -7,7 +7,14 @@ description: >
 
 ## 相關討論
 
+
+### zip
+
 * [解壓縮zip檔案，遇到檔案名稱是big5編碼，產生亂碼時，如何解決？](/book-ubuntu-qna/read/case/file-archiving-and-compression/zip/unzip-big5.html)
+
+### tar
+
+* [tar的基本用法 (Archiving)](/book-ubuntu-qna/read/case/file-archiving-and-compression/tar/archiving.html)
 
 
 ## Wikipedia
