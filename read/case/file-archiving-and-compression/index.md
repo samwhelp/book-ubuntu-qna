@@ -15,6 +15,7 @@ description: >
 ### tar
 
 * [tar的基本用法 (Archiving)](/book-ubuntu-qna/read/case/file-archiving-and-compression/tar/archiving.html)
+* [tar的「change directory用法」注意事項](/book-ubuntu-qna/read/case/file-archiving-and-compression/tar/change-directory-note.html)
 
 
 ## Wikipedia
