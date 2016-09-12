@@ -102,6 +102,10 @@ $ sudo chmod 755 /usr/local/share/fonts/CNS11643
 $ sudo fc-cache -fv
 ```
 
+以上步驟寫成一個「[shell script](/book-ubuntu-qna/read/case/font/cns11643/script/install-cns11643-font.sh)」。
+
+
+
 ### 檢驗
 
 執行
