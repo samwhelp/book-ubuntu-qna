@@ -104,7 +104,7 @@ $ sudo fc-cache -fv
 
 ### 統整
 
-以上步驟統整寫成一個「[shell script(腳本)](/book-ubuntu-qna/read/case/font/cns11643/script/install-cns11643-font.sh)」，內容可以看「[這裡](https://github.com/samwhelp/book-ubuntu-qna/blob/gh-pages/read/case/font/cns11643/script/install-cns11643-font.sh)」。
+以上步驟，統整寫成一個「[shell script(腳本)](/book-ubuntu-qna/read/case/font/cns11643/script/install-cns11643-font.sh)」，內容可以看「[這裡](https://github.com/samwhelp/book-ubuntu-qna/blob/gh-pages/read/case/font/cns11643/script/install-cns11643-font.sh)」。
 
 也可以執行下面的指令下載這個腳本下來，然後執行。
 
