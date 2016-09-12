@@ -5,6 +5,14 @@
 # http://data.gov.tw/node/gov/resource/27234
 # http://www.cns11643.gov.tw/
 
+## 確認「/usr/local/share/fonts/CNS11643」這個資料夾是否存在
+if [ -a /usr/local/share/fonts/CNS11643 ]; then
+	echo 'Directory exits: /usr/local/share/fonts/CNS11643'
+	echo 'Please remove /usr/local/share/fonts/CNS11643 first!'
+	echo '$ sudo rm /usr/local/share/fonts/CNS11643 -rf'
+	exit;
+fi
+
 ## 建立工作資料夾
 mkdir ~/tmp -p
 cd ~/tmp

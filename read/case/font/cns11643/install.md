@@ -90,7 +90,7 @@ $ sudo chmod 644 /usr/local/share/fonts/CNS11643/*
 ```
 
 
-## 更改資料夾權限
+### 更改資料夾權限
 
 ``` sh
 $ sudo chmod 755 /usr/local/share/fonts/CNS11643
@@ -102,8 +102,17 @@ $ sudo chmod 755 /usr/local/share/fonts/CNS11643
 $ sudo fc-cache -fv
 ```
 
-以上步驟寫成一個「[shell script](/book-ubuntu-qna/read/case/font/cns11643/script/install-cns11643-font.sh)」。
+### 統整
 
+以上步驟統整寫成一個「[shell script(腳本)](/book-ubuntu-qna/read/case/font/cns11643/script/install-cns11643-font.sh)」，內容可以看「[這裡](https://github.com/samwhelp/book-ubuntu-qna/blob/gh-pages/read/case/font/cns11643/script/install-cns11643-font.sh)」。
+
+也可以執行下面的指令下載這個腳本下來，然後執行。
+
+``` sh
+wget -c 'http://samwhelp.github.io/book-ubuntu-qna/read/case/font/cns11643/script/install-cns11643-font.sh'
+chmod u+x install-cns11643-font.sh
+./install-cns11643-font.sh
+```
 
 
 ### 檢驗
