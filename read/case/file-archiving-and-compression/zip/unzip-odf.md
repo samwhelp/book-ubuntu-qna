@@ -2,7 +2,7 @@
 layout: page
 title: 如何透過unzip確認ODF是否有內嵌字型
 description: >
-  如何透過unzip確認ODF是否有內嵌字型？
+  如何透過unzip確認ODF是否有內嵌字型
 date: 2016-09-30 12:50:11 +0800
 parent:
   title: 檔案的打包以及壓縮與解壓縮
