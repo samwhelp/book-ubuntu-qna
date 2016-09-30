@@ -35,6 +35,7 @@ parent:
 * man [unzip](http://manpages.ubuntu.com/manpages/xenial/en/man1/unzip.1.html)
 * man [grep](http://manpages.ubuntu.com/manpages/xenial/en/man1/grep.1.html)
 * man [tree](http://manpages.ubuntu.com/manpages/xenial/en/man1/tree.1.html)
+* man [xxd](http://manpages.ubuntu.com/manpages/xenial/en/man1/xxd.1.html)
 
 「unzip」的用法，也可以參考「[這篇案例](http://samwhelp.github.io/book-ubuntu-qna/read/case/file-archiving-and-compression/zip/unzip-big5.html)」。
 
@@ -81,7 +82,7 @@ Archive:  test-no-font.ods
 
 ```
 
-額外可以執行的參考指令
+另外一個參考指令，用來觀看檔案
 
 ``` sh
 $ xxd test-no-font.ods
