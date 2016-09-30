@@ -22,6 +22,8 @@ parent:
 
 * [回覆: 無法安裝bin ---- bash: No such file or directory](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=328612#forumpost328612)
 * [回覆: [請益]關於安裝Kompozer 找不到套件](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=326768#forumpost326768)
+* [回覆: Unicode9.0字元一覽有感 (如何透過unzip確認ODF是否有內嵌字型)](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=354988#forumpost354988) 
+
 
 ## 額外應用
 
