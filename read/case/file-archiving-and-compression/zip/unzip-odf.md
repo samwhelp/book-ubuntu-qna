@@ -81,6 +81,11 @@ Archive:  test-no-font.ods
 
 ```
 
+額外可以執行的參考指令
+
+``` sh
+$ xxd test-no-font.ods
+```
 
 ### 解開
 
