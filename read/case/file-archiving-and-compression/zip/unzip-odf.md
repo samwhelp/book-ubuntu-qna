@@ -36,6 +36,8 @@ parent:
 * man [grep](http://manpages.ubuntu.com/manpages/xenial/en/man1/grep.1.html)
 * man [tree](http://manpages.ubuntu.com/manpages/xenial/en/man1/tree.1.html)
 * man [xxd](http://manpages.ubuntu.com/manpages/xenial/en/man1/xxd.1.html)
+* man [hexdump](http://manpages.ubuntu.com/manpages/xenial/en/man1/hexdump.1.html)
+* man [od](http://manpages.ubuntu.com/manpages/xenial/en/man1/od.1.html)
 
 「unzip」的用法，也可以參考「[這篇案例](http://samwhelp.github.io/book-ubuntu-qna/read/case/file-archiving-and-compression/zip/unzip-big5.html)」。
 
@@ -94,6 +96,12 @@ $ xxd test-no-font.ods
 
 ``` sh
 $ hexdump -C test-no-font.ods
+```
+
+或是執行
+
+``` sh
+$ od -A x -t x1z -v test-no-font.ods
 ```
 
 可以顯示 hex+ASCII 對照觀看
