@@ -82,11 +82,21 @@ Archive:  test-no-font.ods
 
 ```
 
-另外一個參考指令，用來觀看檔案
+另外額外參考指令，用來觀看檔案
+
+執行
 
 ``` sh
 $ xxd test-no-font.ods
 ```
+
+或是執行
+
+``` sh
+$ hexdump -C test-no-font.ods
+```
+
+可以顯示 hex+ASCII 對照觀看
 
 ### 解開
 
