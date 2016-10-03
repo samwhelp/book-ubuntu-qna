@@ -38,6 +38,7 @@ parent:
 
 ## 相關討論
 
+* [回覆: ubuntu16.04 伺服器 安裝問題](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=355042#forumpost355042)
 * [回覆: NetworkManager如何設定成不更新不升級?](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=353756#forumpost353756)
 * [回覆: unmet dependencies && broken packages](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=352414#forumpost352414)
 * [回覆: ufw 之user.roles在哪邊?](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=348810#forumpost348810)
