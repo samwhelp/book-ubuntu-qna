@@ -16,6 +16,7 @@ layout: default
 * [安裝設定 Adobe Flash Player](/book-ubuntu-qna/read/case/app/adobe-flash-player/)
 * [安裝設定 NVIDIA CUDA](/book-ubuntu-qna/read/case/app/nvidia-cuda/)
 * [安裝設定 Network Manager](/book-ubuntu-qna/read/case/app/network-manager/)
+* [安裝設定 Apache2](/book-ubuntu-qna/read/case/app/apache2/)
 
 ## App
 
