@@ -13,6 +13,7 @@ parent:
 
 ## 相關討論
 
+* [回覆: 請問重新安裝](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=355044#forumpost355044)
 * [[教學] Ubuntu 14.04的調校](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?topic_id=85988)
 * [[教學] Ubuntu 12.04的調校](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?topic_id=49182)
 * [[推薦] Ubuntu MATE 14.04 LTS（內含調校）](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?topic_id=92902)

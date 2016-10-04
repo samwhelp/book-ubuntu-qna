@@ -29,10 +29,11 @@ parent:
 
 ## 相關的討論
 
+* [回覆: root使用者密碼](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=310770#forumpost310770)
 * [文字界面開機](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=352888#forumpost352888)
+* [回覆: 改了GRUB_CMDLINE_LINUX_DEFAULT="text"之後開不了機](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=355058#forumpost355058)
 * [安裝ubuntu時偵測不到win7 @@](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=341570#forumpost341570)
 * [從 MBR boot code (440 bytes) 探索 Ubuntu 無法開機的問題](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=340038#forumpost340038)
-* [回覆: root使用者密碼](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=310770#forumpost310770)
 * [回覆: Ubuntu 14.04LTS 開機選單的問題？](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=333322#forumpost333322)
 * [回覆: 沒辦法進入另一個作業系統.........](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=333444#forumpost333444)
 * [回覆: 如何重裝 Ubuntu ?](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=331380#forumpost331380)

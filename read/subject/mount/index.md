@@ -12,6 +12,7 @@ parent:
 
 ## 相關討論
 
+* [回覆: 請問重新安裝](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=355044#forumpost355044)
 * [自動掛載設定範例](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=338250#forumpost338250)
 * [開機時出現無法掛載partition的訊息](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=327644#forumpost327644)
 * 回覆: 請問如何將多個帳號的資料備份在同一硬碟上？([1](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=327956#forumpost327956))([2](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=328062#forumpost328062))
