@@ -3,7 +3,7 @@ layout: page
 title: Ubuntu recovery mode read-only
 description: >
   Ubuntu recovery mode read-only。
-date: 2016-10-04 14:04:22 +0800  
+date: 2016-10-04 14:04:23 +0800  
 parent:
   title: 如何修復「Ubuntu」
   url: '/read/howto/recovery/'
