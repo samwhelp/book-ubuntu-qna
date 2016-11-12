@@ -1,19 +1,21 @@
 ---
 layout: page
-title: 字型的安裝與設定
+title: 如何探索 fontconfig
 description: >
-  Ubuntu環境，字型的安裝與設定。
+  Ubuntu環境，如何探索 fontconfig
 ---
+
 
 ## 相關討論
 
-* [手動安裝全字庫字型(CNS11643)](/book-ubuntu-qna/read/case/font/cns11643/install.html)
-* [套件安裝全字庫字型(CNS11643)](/book-ubuntu-qna/read/case/font/cns11643/install-package.html)
+* [「/etc/fonts/local.conf」和「/etc/fonts/conf.d/51-local.conf」](/book-ubuntu-qna/read/howto/configure-font/fontconfig/local.conf.html)
 
 
-## 程式如何設定字型
+## 相關主題
 
+* [字型的安裝與設定](/book-ubuntu-qna/read/case/font/)
 * [程式如何設定字型](/book-ubuntu-qna/read/howto/configure-font/)
+
 
 ## Path
 
@@ -50,19 +52,3 @@ description: >
 ## Ubuntu Basic Skill
 
 * [一些字型設定相關的技巧](http://samwhelp.github.io/book-ubuntu-basic-skill/book/content/font/index.html)
-
-
-## 「UbuntuTW Wiki」
-
-* [Howto Custom Fonts with Fontconfig](http://wiki.ubuntu-tw.org/index.php?title=HowtoCustomFontswithFontconfig)
-
-
-## 「Ubuntu 」官方參考文件
-
-* Ubuntu Community Help Wiki / [Fonts](https://help.ubuntu.com/community/Fonts)
-
-
-## fontconfig 官網
-
-* [https://www.fontconfig.org/](https://www.fontconfig.org/)
-* [https://www.freedesktop.org/wiki/Software/fontconfig/](https://www.freedesktop.org/wiki/Software/fontconfig/)

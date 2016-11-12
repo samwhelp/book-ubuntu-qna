@@ -12,6 +12,7 @@ description: >
 * [從lightdm的log檔，找到的一些資訊](/book-ubuntu-qna/read/howto/configure-font/lightdm/log.html)
 * [如何找尋lightdm相關的套件](/book-ubuntu-qna/read/howto/configure-font/lightdm/package.html)
 
-## 字型的安裝與設定
+## 相關主題
 
 * [字型的安裝與設定](/book-ubuntu-qna/read/case/font/)
+* [如何探索 fontconfig](/book-ubuntu-qna/read/howto/configure-font/fontconfig/)
