@@ -6,7 +6,7 @@ description: >
 parent:
   title: 如何探索 fontconfig
   url: '/read/howto/configure-font/fontconfig'
-source_url: '/read/howto/configure-font/fontconfig/local-conf.md'
+source_url: '/read/howto/configure-font/fontconfig/local.conf.md'
 ---
 
 
