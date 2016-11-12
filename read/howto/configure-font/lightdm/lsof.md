@@ -12,7 +12,7 @@ source_url: '/read/howto/configure-font/lightdm/lsof.md'
 
 ## 相關討論
 
-* 登入畫面 輸入密碼處 中文部分出現方格
+* [回覆: 登入畫面 輸入密碼處 中文部分出現方格](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=355602#forumpost355602)
 * [回覆: 關於Calligra Words的內文編輯區的字級問題。](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=347904#forumpost347904)
 
 
