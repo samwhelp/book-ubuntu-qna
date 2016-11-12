@@ -30,7 +30,7 @@ LOCAL CHANGES BELONG IN 'local.conf'.
 
 ## 確認 local.conf 的路徑
 
-執行下面指令，產生「/etc/fonts/local.conf」，填入一行內容「text」。
+執行下面指令，產生「/etc/fonts/local.conf」，填入一行內容「test」。
 
 ``` sh
 $ sudo sh -c 'echo test > /etc/fonts/local.conf'

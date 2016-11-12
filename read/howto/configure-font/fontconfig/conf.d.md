@@ -30,7 +30,7 @@ $ cat /etc/fonts/fonts.conf | sed -n '68,71p'
 
 ## 實驗一
 
-執行下面指令，產生「/etc/fonts/conf.d/test.conf」，填入一行內容「text」。
+執行下面指令，產生「/etc/fonts/conf.d/test.conf」，填入一行內容「test」。
 
 ``` sh
 $ sudo sh -c 'echo test > /etc/fonts/conf.d/test.conf'
@@ -61,7 +61,7 @@ $ fc-match
 ## 實驗二
 
 
-執行下面指令，產生「/etc/fonts/conf.d/1-test.conf」，填入一行內容「text」。
+執行下面指令，產生「/etc/fonts/conf.d/1-test.conf」，填入一行內容「test」。
 
 ``` sh
 $ sudo sh -c 'echo test > /etc/fonts/conf.d/1-test.conf'
