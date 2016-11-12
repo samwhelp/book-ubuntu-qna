@@ -11,9 +11,10 @@ description: >
 * [套件安裝全字庫字型(CNS11643)](/book-ubuntu-qna/read/case/font/cns11643/install-package.html)
 
 
-## 程式如何設定字型
+## 相關主題
 
 * [程式如何設定字型](/book-ubuntu-qna/read/howto/configure-font/)
+* [如何探索 fontconfig](/book-ubuntu-qna/read/howto/configure-font/fontconfig/)
 
 ## Path
 
