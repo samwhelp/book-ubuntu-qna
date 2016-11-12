@@ -8,6 +8,7 @@ description: >
 
 ## 相關討論
 
+* [「/etc/fonts/conf.d」和「/etc/fonts/fonts.conf」](/book-ubuntu-qna/read/howto/configure-font/fontconfig/conf.d.html)
 * [「/etc/fonts/local.conf」和「/etc/fonts/conf.d/51-local.conf」](/book-ubuntu-qna/read/howto/configure-font/fontconfig/local.conf.html)
 
 
