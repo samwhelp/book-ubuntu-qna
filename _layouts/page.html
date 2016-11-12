@@ -4,7 +4,11 @@ layout: default
 			<article class="post">
 
 				<header class="post-header">
+					{% if page.source_url %}
+					<a href="{{ page.source_url | prepend: 'https://github.com/samwhelp/book-ubuntu-qna/blob/gh-pages' | escape }}"><h1 class="post-title">{{ page.title | escape }}</h1></a>
+					{% else %}
 					<h1 class="post-title">{{ page.title | escape }}</h1>
+					{% endif %}
 				</header>
 
 				<div class="post-content">
