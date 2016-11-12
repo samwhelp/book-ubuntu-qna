@@ -2,7 +2,7 @@
 layout: page
 title: 字型的安裝與設定
 description: >
-  字型的安裝與設定。
+  Ubuntu環境，字型的安裝與設定。
 ---
 
 ## 相關討論
@@ -10,6 +10,10 @@ description: >
 * [手動安裝全字庫字型(CNS11643)](/book-ubuntu-qna/read/case/font/cns11643/install.html)
 * [套件安裝全字庫字型(CNS11643)](/book-ubuntu-qna/read/case/font/cns11643/install-package.html)
 
+
+## 程式如何設定字型
+
+* [程式如何設定字型](/book-ubuntu-qna/read/howto/configure-font/)
 
 ## Path
 

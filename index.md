@@ -43,6 +43,7 @@ layout: default
 ## 字型
 
 * [字型的安裝與設定](/book-ubuntu-qna/read/case/font/)
+* [程式如何設定字型](/book-ubuntu-qna/read/howto/configure-font/)
 
 ## 檔案
 
