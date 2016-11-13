@@ -88,6 +88,20 @@ $ fc-list
 ...略...
 ```
 
+### 搭配 wc 計算筆數(行數)
+
+執行
+
+``` sh
+$ fc-list | wc -l
+```
+
+顯示
+
+```
+642
+```
+
 ### 搭配 more 分頁觀看
 
 執行
@@ -244,6 +258,162 @@ $ fc-list '全字庫正楷體'
 
 ```
 /usr/local/share/fonts/CNS11643/TW-Kai-98_1.ttf: TW\-Kai,全字庫正楷體:style=Regular
+```
+
+執行
+
+``` sh
+$ fc-list :monospace
+```
+
+執行
+
+``` sh
+$ fc-list :mono
+```
+
+執行
+
+``` sh
+$ fc-list :sans-serief
+```
+
+執行
+
+``` sh
+$ fc-list :sans
+```
+
+執行
+
+``` sh
+$ fc-list :serief
+```
+
+執行
+
+``` sh
+$ fc-list :lang=zh-tw
+```
+
+顯示
+
+```
+usr/local/share/fonts/CNS11643/TW-Kai-98_1.ttf: TW\-Kai,全字庫正楷體:style=Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc: Noto Sans CJK JP,Noto Sans CJK JP Bold:style=Bold,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc: Noto Sans Mono CJK KR,Noto Sans Mono CJK KR Bold:style=Bold,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Black.ttc: Noto Sans CJK TC,Noto Sans CJK TC Black:style=Black,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Black.ttc: Noto Sans CJK KR,Noto Sans CJK KR Black:style=Black,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc: Noto Sans Mono CJK JP,Noto Sans Mono CJK JP Bold:style=Bold,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Medium.ttc: Noto Sans CJK JP,Noto Sans CJK JP Medium:style=Medium,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc: Noto Sans CJK JP,Noto Sans CJK JP Regular:style=Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Light.ttc: Noto Sans CJK KR,Noto Sans CJK KR Light:style=Light,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Black.ttc: Noto Sans CJK SC,Noto Sans CJK SC Black:style=Black,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc: Noto Sans Mono CJK TC,Noto Sans Mono CJK TC Bold:style=Bold,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc: Noto Sans CJK KR,Noto Sans CJK KR Regular:style=Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Light.ttc: Noto Sans CJK SC,Noto Sans CJK SC Light:style=Light,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Medium.ttc: Noto Sans CJK KR,Noto Sans CJK KR Medium:style=Medium,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc: Noto Sans Mono CJK SC,Noto Sans Mono CJK SC Bold:style=Bold,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc: Noto Sans Mono CJK JP,Noto Sans Mono CJK JP Regular:style=Regular
+/usr/share/fonts/truetype/droid/DroidSansFallbackFull.ttf: Droid Sans Fallback:style=Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc: Noto Sans CJK TC,Noto Sans CJK TC Bold:style=Bold,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-DemiLight.ttc: Noto Sans CJK JP,Noto Sans CJK JP DemiLight:style=DemiLight,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Thin.ttc: Noto Sans CJK JP,Noto Sans CJK JP Thin:style=Thin,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Light.ttc: Noto Sans CJK JP,Noto Sans CJK JP Light:style=Light,Regular
+/usr/local/share/fonts/CNS11643/TW-Sung-98_1.ttf: TW\-Sung,全字庫正宋體:style=Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Thin.ttc: Noto Sans CJK KR,Noto Sans CJK KR Thin:style=Thin,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc: Noto Sans Mono CJK KR,Noto Sans Mono CJK KR Regular:style=Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Thin.ttc: Noto Sans CJK SC,Noto Sans CJK SC Thin:style=Thin,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc: Noto Sans CJK SC,Noto Sans CJK SC Bold:style=Bold,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-DemiLight.ttc: Noto Sans CJK TC,Noto Sans CJK TC DemiLight:style=DemiLight,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc: Noto Sans CJK SC,Noto Sans CJK SC Regular:style=Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-DemiLight.ttc: Noto Sans CJK SC,Noto Sans CJK SC DemiLight:style=DemiLight,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Medium.ttc: Noto Sans CJK TC,Noto Sans CJK TC Medium:style=Medium,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Black.ttc: Noto Sans CJK JP,Noto Sans CJK JP Black:style=Black,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Medium.ttc: Noto Sans CJK SC,Noto Sans CJK SC Medium:style=Medium,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc: Noto Sans CJK TC,Noto Sans CJK TC Regular:style=Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-DemiLight.ttc: Noto Sans CJK KR,Noto Sans CJK KR DemiLight:style=DemiLight,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc: Noto Sans Mono CJK TC,Noto Sans Mono CJK TC Regular:style=Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc: Noto Sans Mono CJK SC,Noto Sans Mono CJK SC Regular:style=Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Thin.ttc: Noto Sans CJK TC,Noto Sans CJK TC Thin:style=Thin,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Light.ttc: Noto Sans CJK TC,Noto Sans CJK TC Light:style=Light,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc: Noto Sans CJK KR,Noto Sans CJK KR Bold:style=Bold,Regular
+```
+
+驗證一下，執行下面指令
+
+``` sh
+$ fc-query /usr/local/share/fonts/CNS11643/TW-Kai-98_1.ttf | grep zh-tw
+```
+
+顯示
+
+```
+familylang: "zh-tw"(s) "en"(s)
+stylelang: "zh-tw"(s)
+fullnamelang: "zh-tw"(s) "en"(s)
+lang: aa|ab|af|am|ar|as|ast|av|ay|az-az|az-ir|ba|bm|be|bg|bh|bho|bi|bin|bn|bo|br|bs|bua|ca|ce|ch|chm|chr|co|cs|cu|cv|cy|da|de|dz|el|en|eo|es|et|eu|fa|fi|fj|fo|fr|ff|fur|fy|ga|gd|gez|gl|gn|gu|gv|ha|haw|he|hi|ho|hr|hu|hy|ia|ig|id|ie|ik|io|is|it|iu|ja|ka|kaa|ki|kk|kl|km|kn|kok|ku-ir|kum|kv|kw|ky|la|lb|lez|ln|lo|lt|lv|mg|mh|mi|mk|ml|mn-cn|mo|mr|mt|my|nb|nds|ne|nl|nn|no|nr|nso|ny|oc|om|or|os|pa|pl|ps-af|ps-pk|pt|rm|ro|ru|sa|sah|sco|se|sel|sh|shs|si|sk|sl|sm|sma|smj|smn|sms|so|sq|sr|ss|st|sv|sw|syr|ta|te|tg|th|ti-er|ti-et|tig|tk|tl|tn|to|tr|ts|tt|tw|tyv|ug|uk|ur|uz|ve|vi|vo|vot|wa|wen|wo|xh|yap|yi|yo|zh-tw|zu|ak|an|ber-dz|byn|crh|csb|dv|ee|fat|fil|hne|hsb|ht|hz|ii|jv|kab|kj|ku-iq|ku-tr|kwm|lg|li|mai|mn-mn|ms|na|ng|nv|ota|pa-pk|pap-an|pap-aw|qu|quz|rn|rw|sc|sd|sg|sid|sn|su|ty|wal|za|lah|brx|sat|doi(s)
+```
+
+執行
+
+``` sh
+$ fc-list :familylang=zh-tw
+```
+
+執行
+
+``` sh
+$ fc-list :stylelang=zh-tw
+```
+
+執行
+
+``` sh
+$ fc-list :fullnamelang=zh-tw
+```
+
+顯示
+
+```
+/usr/local/share/fonts/CNS11643/TW-Kai-98_1.ttf: TW\-Kai,全字庫正楷體:style=Regular
+/usr/local/share/fonts/CNS11643/TW-Sung-Plus-98_1.ttf: TW\-Sung\-Plus,全字庫正宋體 Plus:style=Regular
+/usr/local/share/fonts/rxkt/rx_kt_mac.ttf: typography:style=Book,Regular
+/usr/local/share/fonts/CNS11643/TW-Sung-Ext-B-98_1.ttf: TW\-Sung\-Ext\-B,全字庫正宋體 Ext\-B:style=Regular
+/usr/local/share/fonts/CNS11643/TW-Sung-98_1.ttf: TW\-Sung,全字庫正宋體:style=Regular
+/usr/local/share/fonts/CNS11643/TW-Kai-Plus-98_1.ttf: TW\-Kai\-Plus,全字庫正楷體 Plus:style=Regular
+/usr/local/share/fonts/CNS11643/TW-Kai-Ext-B-98_1.ttf: TW\-Kai\-Ext\-B,全字庫正楷體 Ext\-B:style=Regular
+/usr/local/share/fonts/rxkt/rxkt0.ttf: <,日星初號楷體<:style=Book
+```
+
+執行
+
+``` sh
+$ fc-list :width=100
+```
+
+執行
+
+``` sh
+$ fc-list :weight=100
+```
+
+執行
+
+``` sh
+$ fc-list :width=100:weight=100
+```
+
+執行
+
+``` sh
+$ fc-list :lang=zh-tw:width=100:weight=80
+```
+
+執行
+
+``` sh
+$ fc-list :monospace:lang=zh-tw:width:100:weight=80
 ```
 
 ### 選項 -v
@@ -545,6 +715,63 @@ TW-Kai
 全字庫正楷體
 ```
 
+執行
+
+``` sh
+$ fc-list : family style file spacing
+```
+
+執行
+
+```
+$ fc-list :lang=zh-tw family style file spacing
+```
+
+顯示
+
+```
+/usr/local/share/fonts/CNS11643/TW-Kai-98_1.ttf: TW\-Kai,全字庫正楷體:style=Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc: Noto Sans CJK JP,Noto Sans CJK JP Bold:style=Bold,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc: Noto Sans Mono CJK KR,Noto Sans Mono CJK KR Bold:style=Bold,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Black.ttc: Noto Sans CJK TC,Noto Sans CJK TC Black:style=Black,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Black.ttc: Noto Sans CJK KR,Noto Sans CJK KR Black:style=Black,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc: Noto Sans Mono CJK JP,Noto Sans Mono CJK JP Bold:style=Bold,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Medium.ttc: Noto Sans CJK JP,Noto Sans CJK JP Medium:style=Medium,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc: Noto Sans CJK JP,Noto Sans CJK JP Regular:style=Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Light.ttc: Noto Sans CJK KR,Noto Sans CJK KR Light:style=Light,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Black.ttc: Noto Sans CJK SC,Noto Sans CJK SC Black:style=Black,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc: Noto Sans Mono CJK TC,Noto Sans Mono CJK TC Bold:style=Bold,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc: Noto Sans CJK KR,Noto Sans CJK KR Regular:style=Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Light.ttc: Noto Sans CJK SC,Noto Sans CJK SC Light:style=Light,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Medium.ttc: Noto Sans CJK KR,Noto Sans CJK KR Medium:style=Medium,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc: Noto Sans Mono CJK SC,Noto Sans Mono CJK SC Bold:style=Bold,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc: Noto Sans Mono CJK JP,Noto Sans Mono CJK JP Regular:style=Regular
+/usr/share/fonts/truetype/droid/DroidSansFallbackFull.ttf: Droid Sans Fallback:style=Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc: Noto Sans CJK TC,Noto Sans CJK TC Bold:style=Bold,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-DemiLight.ttc: Noto Sans CJK JP,Noto Sans CJK JP DemiLight:style=DemiLight,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Thin.ttc: Noto Sans CJK JP,Noto Sans CJK JP Thin:style=Thin,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Light.ttc: Noto Sans CJK JP,Noto Sans CJK JP Light:style=Light,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Thin.ttc: Noto Sans CJK KR,Noto Sans CJK KR Thin:style=Thin,Regular
+/usr/local/share/fonts/CNS11643/TW-Sung-98_1.ttf: TW\-Sung,全字庫正宋體:style=Regular:spacing=90
+/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc: Noto Sans Mono CJK KR,Noto Sans Mono CJK KR Regular:style=Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Thin.ttc: Noto Sans CJK SC,Noto Sans CJK SC Thin:style=Thin,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc: Noto Sans CJK SC,Noto Sans CJK SC Bold:style=Bold,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-DemiLight.ttc: Noto Sans CJK TC,Noto Sans CJK TC DemiLight:style=DemiLight,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc: Noto Sans CJK SC,Noto Sans CJK SC Regular:style=Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-DemiLight.ttc: Noto Sans CJK SC,Noto Sans CJK SC DemiLight:style=DemiLight,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Medium.ttc: Noto Sans CJK TC,Noto Sans CJK TC Medium:style=Medium,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Black.ttc: Noto Sans CJK JP,Noto Sans CJK JP Black:style=Black,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Medium.ttc: Noto Sans CJK SC,Noto Sans CJK SC Medium:style=Medium,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc: Noto Sans CJK TC,Noto Sans CJK TC Regular:style=Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-DemiLight.ttc: Noto Sans CJK KR,Noto Sans CJK KR DemiLight:style=DemiLight,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc: Noto Sans Mono CJK TC,Noto Sans Mono CJK TC Regular:style=Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc: Noto Sans Mono CJK SC,Noto Sans Mono CJK SC Regular:style=Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Thin.ttc: Noto Sans CJK TC,Noto Sans CJK TC Thin:style=Thin,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Light.ttc: Noto Sans CJK TC,Noto Sans CJK TC Light:style=Light,Regular
+/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc: Noto Sans CJK KR,Noto Sans CJK KR Bold:style=Bold,Regular
+```
+
+
 ### 搭配 fc-query
 
 執行
@@ -616,4 +843,52 @@ Pattern has 24 elts (size 32)
         postscriptname: "UbuntuMono-Regular"(s)
         color: False(s)
         symbol: False(s)
+```
+
+### 搭配 dpkg -S 找到字型檔案所屬套件
+
+執行下面指令，先找到路徑
+
+``` sh
+$ fc-list -f '%{file}\n' 'UbuntuMono'
+```
+
+顯示
+
+```
+/usr/share/fonts/truetype/ubuntu-font-family/UbuntuMono-R.ttf
+/usr/share/fonts/truetype/ubuntu-font-family/UbuntuMono-BI.ttf
+/usr/share/fonts/truetype/ubuntu-font-family/UbuntuMono-B.ttf
+/usr/share/fonts/truetype/ubuntu-font-family/UbuntuMono-RI.ttf
+```
+
+執行
+
+``` sh
+$ dpkg -S /usr/share/fonts/truetype/ubuntu-font-family/UbuntuMono-R.ttf
+```
+
+顯示
+
+```
+ttf-ubuntu-font-family: /usr/share/fonts/truetype/ubuntu-font-family/UbuntuMono-R.ttf
+```
+
+表示「/usr/share/fonts/truetype/ubuntu-font-family/UbuntuMono-R.ttf」這個檔案，
+
+屬於「[ttf-ubuntu-font-family](http://packages.ubuntu.com/xenial/ttf-ubuntu-font-family)」這個套件。
+
+上面兩個步驟，也可以合併成一個步驟
+
+``` sh
+$ dpkg -S $(fc-list -f '%{file}\n' 'UbuntuMono')
+```
+
+顯示
+
+```
+ttf-ubuntu-font-family: /usr/share/fonts/truetype/ubuntu-font-family/UbuntuMono-R.ttf
+ttf-ubuntu-font-family: /usr/share/fonts/truetype/ubuntu-font-family/UbuntuMono-BI.ttf
+ttf-ubuntu-font-family: /usr/share/fonts/truetype/ubuntu-font-family/UbuntuMono-B.ttf
+ttf-ubuntu-font-family: /usr/share/fonts/truetype/ubuntu-font-family/UbuntuMono-RI.ttf
 ```
