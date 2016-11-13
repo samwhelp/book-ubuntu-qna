@@ -40,11 +40,11 @@ layout: default
 
 * [ibus](/book-ubuntu-qna/read/case/input/ibus/)
 
-## 字型
+## 字型 [安裝與設定](/book-ubuntu-qna/read/howto/configure-font)
 
-* [字型的安裝與設定](/book-ubuntu-qna/read/case/font/)
-* [程式如何設定字型](/book-ubuntu-qna/read/howto/configure-font/)
-* [如何探索 fontconfig](/book-ubuntu-qna/read/howto/configure-font/fontconfig/)
+* [系統如何安裝字型](/book-ubuntu-qna/read/howto/configure-font/font)
+* [程式如何設定字型](/book-ubuntu-qna/read/howto/configure-font/program)
+* [如何使用fontconfig](/book-ubuntu-qna/read/howto/configure-font/fontconfig/)
 
 ## 檔案
 

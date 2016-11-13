@@ -4,9 +4,9 @@ title: 「/etc/fonts/local.conf」和「/etc/fonts/conf.d/51-local.conf」
 description: >
   「/etc/fonts/local.conf」和「/etc/fonts/conf.d/51-local.conf」
 parent:
-  title: 如何探索 fontconfig
+  title: 如何使用 fontconfig
   url: '/read/howto/configure-font/fontconfig'
-source_url: '/read/howto/configure-font/fontconfig/local.conf.md'
+source_url: '/read/howto/configure-font/fontconfig/conf/local.conf.md'
 ---
 
 

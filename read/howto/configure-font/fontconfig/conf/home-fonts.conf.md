@@ -4,9 +4,9 @@ title: 「~/.config/fontconfig/fonts.conf」和「/etc/fonts/conf.d/50-user.conf
 description: >
   「~/.config/fontconfig/fonts.conf」和「/etc/fonts/conf.d/50-user.conf」
 parent:
-  title: 如何探索 fontconfig
+  title: 如何使用 fontconfig
   url: '/read/howto/configure-font/fontconfig'
-source_url: '/read/howto/configure-font/fontconfig/home-fonts.conf.md'
+source_url: '/read/howto/configure-font/fontconfig/conf/home-fonts.conf.md'
 ---
 
 

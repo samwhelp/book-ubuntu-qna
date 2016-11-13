@@ -6,12 +6,12 @@ description: >
 parent:
   title: 程式如何設定字型
   url: '/read/howto/configure-font/'
-source_url: '/read/howto/configure-font/lightdm/log.md'
+source_url: '/read/howto/configure-font/program/lightdm/log.md'
 ---
 
 ## /var/log/lightdm/
 
-延續「[如何知道程式開啟那些字型檔案(以lightdm為例)](/book-ubuntu-qna/read/howto/configure-font/lightdm/lsof.html)」這篇最後討論到的「log檔路徑」
+延續「[如何知道程式開啟那些字型檔案(以lightdm為例)](/book-ubuntu-qna/read/howto/configure-font/program/lightdm/lsof.html)」這篇最後討論到的「log檔路徑」
 找到「/var/log/lightdm/seat0-greeter.log」這個檔。
 
 可以知道「/var/log/lightdm/」這個資料夾，是放置相關的「log檔」。

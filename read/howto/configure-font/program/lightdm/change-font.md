@@ -6,7 +6,7 @@ description: >
 parent:
   title: 程式如何設定字型
   url: '/read/howto/configure-font/'
-source_url: '/read/howto/configure-font/lightdm/change-font.md'
+source_url: '/read/howto/configure-font/program/lightdm/change-font.md'
 ---
 
 

@@ -2,16 +2,17 @@
 layout: page
 title: 套件安裝全字庫字型(CNS11643)
 description: >
-  Ubuntu環境，安裝全字庫字型套件
+  Ubuntu環境，套件安裝全字庫字型(CNS11643)
 date: 2016-09-02 16:45:22 +0800
 parent:
-  title: 字型的安裝與設定
-  url: /read/case/font
+  title: 系統如何安裝字型
+  url: /read/howto/configure-font/font
+source_url: '/read/howto/configure-font/font/cns11643/install-package.md'  
 ---
 
 ## 前言
 
-雖然我傾向「[手動安裝全字庫字型](/book-ubuntu-qna/read/case/font/cns11643/install.html)」的方式，不過還是紀錄「套件安裝」的方式。
+雖然我傾向「[手動安裝全字庫字型](/book-ubuntu-qna/read/howto/configure-font/font/cns11643/install.html)」的方式，不過還是紀錄「套件安裝」的方式。
 
 ## 操作環境
 

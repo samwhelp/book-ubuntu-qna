@@ -4,9 +4,9 @@ title: 「/etc/fonts/conf.d」和「/etc/fonts/fonts.conf」
 description: >
   「/etc/fonts/conf.d」和「/etc/fonts/fonts.conf」
 parent:
-  title: 如何探索 fontconfig
+  title: 如何使用 fontconfig
   url: '/read/howto/configure-font/fontconfig'
-source_url: '/read/howto/configure-font/fontconfig/conf.d.md'
+source_url: '/read/howto/configure-font/fontconfig/conf/conf.d.md'
 ---
 
 ## 緣起
