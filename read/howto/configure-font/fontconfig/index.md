@@ -10,11 +10,17 @@ source_url: '/read/howto/configure-font/fontconfig/index.md'
 ---
 
 
-## 相關討論
+## 設定檔
 
 * [「/etc/fonts/conf.d」和「/etc/fonts/fonts.conf」](/book-ubuntu-qna/read/howto/configure-font/fontconfig/conf/conf.d.html)
 * [「/etc/fonts/local.conf」和「/etc/fonts/conf.d/51-local.conf」](/book-ubuntu-qna/read/howto/configure-font/fontconfig/conf/local.conf.html)
 * [「~/.config/fontconfig/fonts.conf」和「/etc/fonts/conf.d/50-user.conf」](/book-ubuntu-qna/read/howto/configure-font/fontconfig/conf/home-fonts.conf.html)
+
+
+## 輔助工具
+
+* [fc-list](/book-ubuntu-qna/read/howto/configure-font/fontconfig/util/fc-list.html)
+
 
 ## 相關主題
 
