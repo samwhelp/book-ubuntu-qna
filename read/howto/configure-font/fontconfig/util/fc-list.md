@@ -416,6 +416,7 @@ $ fc-list :lang=zh-tw:width=100:weight=80
 $ fc-list :monospace:lang=zh-tw:width:100:weight=80
 ```
 
+
 ### 選項 -v
 
 執行
@@ -723,7 +724,28 @@ $ fc-list : family style file spacing
 
 執行
 
+``` sh
+$ fc-list :lang=zh-tw file
 ```
+
+顯示
+
+```
+/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc:
+/usr/share/fonts/opentype/noto/NotoSansCJK-Black.ttc:
+/usr/share/fonts/truetype/droid/DroidSansFallbackFull.ttf:
+/usr/share/fonts/opentype/noto/NotoSansCJK-Light.ttc:
+/usr/share/fonts/opentype/noto/NotoSansCJK-DemiLight.ttc:
+/usr/share/fonts/opentype/noto/NotoSansCJK-Thin.ttc:
+/usr/local/share/fonts/CNS11643/TW-Kai-98_1.ttf:
+/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc:
+/usr/local/share/fonts/CNS11643/TW-Sung-98_1.ttf:
+/usr/share/fonts/opentype/noto/NotoSansCJK-Medium.ttc:
+```
+
+執行
+
+``` sh
 $ fc-list :lang=zh-tw family style file spacing
 ```
 
