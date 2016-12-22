@@ -3,14 +3,15 @@ layout: page
 title: 文件編碼
 description: >
   Ubuntu環境，文件編碼操作實務。
+date: 2015-02-08 13:54:53 +0800  
 parent:
   title: 主題
   url: /read/subject
+source_url: '/read/subject/encode/index.md'
 ---
 
 [原始連結](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=333558#forumpost333558)
 
-================================================================================
 
 ## 相關討論
 
