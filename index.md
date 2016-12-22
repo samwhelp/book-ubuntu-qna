@@ -1,5 +1,10 @@
 ---
 layout: default
+title: 首頁
+description: >
+  Ubuntu 問答集 / 首頁
+date: 2016-05-05 22:25:12 +0800
+source_url: '/index.md'
 ---
 
 # 首頁
