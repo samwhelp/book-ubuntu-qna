@@ -136,6 +136,8 @@ parent:
 * [leafpad](http://packages.ubuntu.com/xenial/leafpad)
 * [mousepad](http://packages.ubuntu.com/xenial/mousepad)
 
+更多文字編輯器請參考「[這篇](http://samwhelp.github.io/book-ubuntu-qna/read/link/tool/text-editor.html)」的紀錄
+
 ================================================================================
 
 ## Charset
