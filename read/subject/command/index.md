@@ -3,9 +3,11 @@ layout: page
 title: 如何執行指令
 description: >
   Ubuntu環境，如何執行指令。
+date: 2015-12-30 01:44:10 +0800  
 parent:
   title: 主題
   url: /read/subject
+source_url: '/read/subject/command/index.md'
 ---
 
 [原始連結](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=348698#forumpost348698)
