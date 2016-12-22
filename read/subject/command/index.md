@@ -10,6 +10,7 @@ parent:
 
 [原始連結](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=348698#forumpost348698)
 
+
 ## 起源
 
 來自這篇討論「[回覆: fwbuilder產生的檔無法執行](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=348676#forumpost348676)」。
@@ -17,9 +18,10 @@ parent:
 對「鳥哥的私房菜」作一些重點導讀，來建立「如何執行指令」的一些需要了解的觀念。
 
 「下指令」需要使用「Terminal」，若是不曉得怎麼啟用，
-可以參考這篇「Ubuntu Community Help Wiki / [UsingTheTerminal](https://help.ubuntu.com/community/UsingTheTerminal)」，
-裡面有介紹幾個主要的桌面環境的啟用方法和快速鍵。
 
+可以參考這篇「Ubuntu Community Help Wiki / [UsingTheTerminal](https://help.ubuntu.com/community/UsingTheTerminal)」，
+
+裡面有介紹幾個主要的桌面環境的啟用方法和快速鍵。
 
 ## 鳥哥的私房菜
 
@@ -28,6 +30,7 @@ parent:
 * [5.3.3 絕對路徑與相對路徑](http://linux.vbird.org/linux_basic/0210filepermission.php#dir_path)
 * [10.4.1 路徑與指令搜尋順序](http://linux.vbird.org/linux_basic/0320bash.php#settings_path)
 * [13.4.2 sudo](http://linux.vbird.org/linux_basic/0410accountmanager.php#sudo)
+* [第十一章、正規表示法與文件格式化處理](http://linux.vbird.org/linux_basic/0330regularex.php)
 
 ## 如何查詢Manual
 
@@ -46,13 +49,13 @@ parent:
 * Ubuntu / [Packages](http://packages.ubuntu.com/)
 * [Debian Packages Search](https://packages.debian.org/index)
 
-
-
 ## 執行指令 相關討論
 
-* [回覆: fwbuilder產生的檔無法執行](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=348676#forumpost348676)
-* [回覆: 請問軟體安裝及執行問題](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=348392#forumpost348392)
-* [回覆: 對於正體中文資訊書籍/文件的奢望](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=348438#forumpost348438)
+* [#2 回覆: fwbuilder產生的檔無法執行](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=348676#forumpost348676)
+* [#3 回覆: 請問軟體安裝及執行問題](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=348392#forumpost348392)
+* [#2 回覆: 對於正體中文資訊書籍/文件的奢望](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=348438#forumpost348438)
+* [#4 回覆: 為什麼我的終端機上無法使用"cd"這個指令呢？](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=356206#forumpost356206)
+* [#4 回覆: 如何在 Terminal 一行裡同時下幾個指令？](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=356178#forumpost356178)
 
 ## sudo 相關討論
 
@@ -70,11 +73,16 @@ parent:
 
 * $ man [bash](http://manpages.ubuntu.com/manpages/trusty/en/man1/bash.1.html)
 * $ man [sh](http://manpages.ubuntu.com/manpages/trusty/en/man1/sh.1.html)
-* $ man 1posix [sh](http://manpages.ubuntu.com/manpages/trusty/en/man1/sh.1posix.html)  # <-- 事先安裝「[manpages-posix](http://packages.ubuntu.com/trusty/manpages-posix)」這個套件($ sudo apt-get install manpages-posix)
-* $ help # <-- bash 環境可以執行
-* $ help help # <-- bash 環境可以執行
-* [bash-handbook](https://github.com/denysdovhan/bash-handbook)
+* $ man 1posix [sh](http://manpages.ubuntu.com/manpages/trusty/en/man1/sh.1posix.html)  <-- 事先安裝「[manpages-posix](http://packages.ubuntu.com/trusty/manpages-posix)」這個套件($ sudo apt-get install manpages-posix)
+* $ help  <-- bash 環境可以執行
+* $ help help <-- bash 環境可以執行
+* [bash-handbook](https://github.com/denysdovhan/bash-handbook) ([中文版](https://github.com/denysdovhan/bash-handbook/tree/master/translations/zh-TW))
 * [The Linux Command Line](http://linuxcommand.org/tlcl.php)
+
+## 相關連結
+
+* [The Grymoire - home for UNIX wizards](http://www.grymoire.com/Unix/index.html)
+* [Linux commands - A practical reference](http://www.pixelbeat.org/cmdline.html)
 
 ## 相關指令
 
@@ -89,9 +97,9 @@ parent:
 * [AdvancedCommandlineHowto](https://help.ubuntu.com/community/AdvancedCommandlineHowto)
 * [HowToReadline](https://help.ubuntu.com/community/HowToReadline)
 
+## Shell Script
 
-## shell script
-
+* [#3 回覆: 為什麼站上沒有16.10可以下載呢？](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=355920#forumpost355920)
 * [回覆: 「Mozilla Firefox 官方版」更新腳本](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=353262#forumpost353262)
 * [function去呼叫function](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=350648#forumpost350648)
 * [shell中 `` 與()問題請教](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=350768#forumpost350768)
