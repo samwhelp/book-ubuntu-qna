@@ -2,6 +2,8 @@
 layout: default
 ---
 
+# 首頁
+
 ## Release Cdimage
 
 * [Ubuntu Release Cdimage](/book-ubuntu-qna/read/case/release-cdimage/)
