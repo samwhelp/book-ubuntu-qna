@@ -78,7 +78,7 @@ source_url: '/read/subject/command/index.md'
 * $ man 1posix [sh](http://manpages.ubuntu.com/manpages/trusty/en/man1/sh.1posix.html)  <-- 事先安裝「[manpages-posix](http://packages.ubuntu.com/trusty/manpages-posix)」這個套件($ sudo apt-get install manpages-posix)
 * $ help  <-- bash 環境可以執行
 * $ help help <-- bash 環境可以執行
-* [bash-handbook](https://github.com/denysdovhan/bash-handbook) ([中文版](https://github.com/denysdovhan/bash-handbook/tree/master/translations/zh-TW))
+* [bash-handbook](https://github.com/denysdovhan/bash-handbook) ([中文版](https://github.com/denysdovhan/bash-handbook/tree/master/translations/zh-TW)) ([連結紀錄在這](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=356222#forumpost356222))
 * [The Linux Command Line](http://linuxcommand.org/tlcl.php)
 
 ## 相關連結
@@ -101,6 +101,7 @@ source_url: '/read/subject/command/index.md'
 
 ## Shell Script
 
+* [#2 回覆: bash-handbook](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=356236#forumpost356236)
 * [#3 回覆: 為什麼站上沒有16.10可以下載呢？](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=355920#forumpost355920)
 * [回覆: 「Mozilla Firefox 官方版」更新腳本](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=353262#forumpost353262)
 * [function去呼叫function](http://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=350648#forumpost350648)
