@@ -15,7 +15,7 @@ source_url: '/read/howto/configure-font/fontconfig/conf/configuration-file-forma
 
 $ man [fonts-conf](http://manpages.ubuntu.com/manpages/xenial/en/man5/fonts-conf.5.html)
 
-可以找到下面這一段說明
+找尋「[CONFIGURATION FILE FORMAT](http://manpages.ubuntu.com/manpages/xenial/en/man5/fonts-conf.5.html#contenttoc6)」，可以找到下面這一段說明。
 
 ```
 CONFIGURATION FILE FORMAT
