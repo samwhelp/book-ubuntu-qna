@@ -49,9 +49,9 @@ CONFIGURATION FILE FORMAT
 
 例如:
 
-## /etc/fonts/conf.d/50-user.conf
+## /etc/fonts/conf.d/51-local.conf
 
-執行下面指令，觀看「/etc/fonts/conf.d/50-user.conf」這個檔案的內容。
+執行下面指令，觀看「/etc/fonts/conf.d/51-local.conf」這個檔案的內容。
 
 ``` sh
 $ cat /etc/fonts/conf.d/51-local.conf
