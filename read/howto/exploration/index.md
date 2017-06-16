@@ -5,8 +5,16 @@ description: >
   如何探索「Ubuntu」
 ---
 
+## WorkFlow
 
 * [從「指令」找到「使用說明」](/book-ubuntu-qna/read/howto/exploration/command-and-manpage.html)
 * [從「指令」找到「所屬套件」](/book-ubuntu-qna/read/howto/exploration/command-and-package.html)
 * [找「已安裝套件」的「檔案列表」](/book-ubuntu-qna/read/howto/exploration/package-installed-filelist.html)
 * [找「套件」的「檔案列表」](/book-ubuntu-qna/read/howto/exploration/package-filelist.html)
+
+
+## 指令操作範例
+
+* [關於「dpkg-query --control-list」](/book-ubuntu-qna/read/howto/exploration/cmd-dpkg-query-control-list.html)
+* [如何找到套件的「Control File」路徑 - 關於「dpkg-query --control-path」或「dpkg-query -c」](/book-ubuntu-qna/read/howto/exploration/cmd-dpkg-query-control-path.html)
+* [如何觀看套件的「Control File」內容 - 關於「dpkg-query --control-show」](/book-ubuntu-qna/read/howto/exploration/cmd-dpkg-query-control-show.html)
