@@ -5,7 +5,7 @@ description: >
   如何探索「Ubuntu」
 ---
 
-## WorkFlow
+## Workflow
 
 * [從「指令」找到「使用說明」](/book-ubuntu-qna/read/howto/exploration/command-and-manpage.html)
 * [從「指令」找到「所屬套件」](/book-ubuntu-qna/read/howto/exploration/command-and-package.html)
