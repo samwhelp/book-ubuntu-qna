@@ -117,4 +117,4 @@ $ dpkg-query --control-path man-db postinst
 
 ## Debian Reference
 
-* [2.5.9. The dpkg command](https://www.debian.org/doc/manuals/debian-reference/ch02.en.html#_the_dpkg_command) [2.6.3. Fixing broken package script](https://www.debian.org/doc/manuals/debian-reference/ch02.en.html#_fixing_broken_package_script)
+* [2.5.9. The dpkg command](https://www.debian.org/doc/manuals/debian-reference/ch02.en.html#_the_dpkg_command) * [2.6.3. Fixing broken package script](https://www.debian.org/doc/manuals/debian-reference/ch02.en.html#_fixing_broken_package_script)
