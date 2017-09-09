@@ -226,7 +226,7 @@ pam_getenv: /usr/sbin/pam_getenv /usr/share/man/man8/pam_getenv.8.gz /usr/share/
 
 ## Package
 
-* [libpam-modules](https://packages.ubuntu.com/xenial/libpam-modules) ([Source: pam](https://packages.ubuntu.com/source/xenial/pam))
+* [libpam-modules](https://packages.ubuntu.com/xenial/libpam-modules) (Source: [pam](https://packages.ubuntu.com/source/xenial/pam))
 
 
 ## Ubuntu Community Help Wiki

@@ -569,8 +569,8 @@ $ file /usr/share/man/man5/procfs.5.gz
 
 ## Package
 
-* [procps](https://packages.ubuntu.com/xenial/procps) ([Source: pam](https://packages.ubuntu.com/source/xenial/procps))
-* [manpages](https://packages.ubuntu.com/xenial/manpages) ([Source: manpages](https://packages.ubuntu.com/source/xenial/manpages))
+* [manpages](https://packages.ubuntu.com/xenial/manpages) (Source: [manpages](https://packages.ubuntu.com/source/xenial/manpages))
+* [procps](https://packages.ubuntu.com/xenial/procps) (Source: [procps](https://packages.ubuntu.com/source/xenial/procps))
 
 
 ## Ubuntu Community Help Wiki

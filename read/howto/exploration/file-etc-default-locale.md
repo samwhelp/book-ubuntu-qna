@@ -134,7 +134,7 @@ $ dpkg -L locales | grep '/man/man.*/'
 
 ## Package
 
-* [locales](https://packages.ubuntu.com/xenial/locales) ([Source: glibc](https://packages.ubuntu.com/source/xenial/glibc))
+* [locales](https://packages.ubuntu.com/xenial/locales) (Source: [glibc](https://packages.ubuntu.com/source/xenial/glibc))
 
 
 ## Ubuntu Community Help Wiki
