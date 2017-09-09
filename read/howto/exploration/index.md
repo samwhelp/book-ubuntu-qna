@@ -16,5 +16,10 @@ description: >
 ## 指令操作範例
 
 * [關於「dpkg-query --control-list」](/book-ubuntu-qna/read/howto/exploration/cmd-dpkg-query-control-list.html)
-* [如何找到套件的「Control File」路徑 - 關於「dpkg-query --control-path」或「dpkg-query -c」](/book-ubuntu-qna/read/howto/exploration/cmd-dpkg-query-control-path.html)
-* [如何觀看套件的「Control File」內容 - 關於「dpkg-query --control-show」](/book-ubuntu-qna/read/howto/exploration/cmd-dpkg-query-control-show.html)
+* [關於「dpkg-query --control-path」或「dpkg-query -c」 - 如何找到套件的「Control File」路徑](/book-ubuntu-qna/read/howto/exploration/cmd-dpkg-query-control-path.html)
+* [關於「dpkg-query --control-show」 - 如何觀看套件的「Control File」內容 ](/book-ubuntu-qna/read/howto/exploration/cmd-dpkg-query-control-show.html)
+
+
+## 檔案
+
+* [關於「/etc/environment」](/book-ubuntu-qna/read/howto/exploration/file-etc-environment.html)
