@@ -25,6 +25,7 @@ description: >
 
 * [關於「/etc/environment」](/book-ubuntu-qna/read/howto/exploration/file-etc-environment.html)
 * [關於「/etc/default/locale」](/book-ubuntu-qna/read/howto/exploration/file-etc-default-locale.html)
+* [關於「/proc/[pid]/environ」](/book-ubuntu-qna/read/howto/exploration/file-proc-pid-environ.html)
 * [關於「/etc/networks」](/book-ubuntu-qna/read/howto/exploration/file-etc-networks.html)
 
 
