@@ -6,6 +6,7 @@ description: >
 parent:
   title: 如何探索「Ubuntu」
   url: '/read/howto/exploration/'
+source_url: '/read/howto/exploration/package-filelist.md' 
 ---
 
 ## 前提
