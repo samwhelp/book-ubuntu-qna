@@ -79,7 +79,7 @@ fi
 
 執行
 
-```
+``` sh
 $ apt-cache showsrc libpam-modules | grep '^Binary:' -B 1
 ```
 

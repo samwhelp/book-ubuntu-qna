@@ -23,3 +23,4 @@ description: >
 ## 檔案
 
 * [關於「/etc/environment」](/book-ubuntu-qna/read/howto/exploration/file-etc-environment.html)
+* [關於「/etc/default/locale」](/book-ubuntu-qna/read/howto/exploration/file-etc-default-locale.html)
