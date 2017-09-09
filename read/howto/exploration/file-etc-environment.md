@@ -223,9 +223,12 @@ pam_getenv: /usr/sbin/pam_getenv /usr/share/man/man8/pam_getenv.8.gz /usr/share/
 * man 3 [pam_getenv](http://manpages.ubuntu.com/manpages/xenial/en/man3/pam_getenv.3.html)
 * man 8 [pam_getenv](http://manpages.ubuntu.com/manpages/xenial/en/man8/pam_getenv.8.html)
 
+
 ## Ubuntu Community Help Wiki
 
 * [EnvironmentVariables](https://help.ubuntu.com/community/EnvironmentVariables)
+* [Locale](https://help.ubuntu.com/community/Locale)
+
 
 ## Debian Wiki
 
