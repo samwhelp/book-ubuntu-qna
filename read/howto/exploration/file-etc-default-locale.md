@@ -132,6 +132,11 @@ $ dpkg -L locales | grep '/man/man.*/'
 * man 8 [update-locale](http://manpages.ubuntu.com/manpages/xenial/en/man8/update-locale.8.html)
 
 
+## Package
+
+* [locales](https://packages.ubuntu.com/xenial/locales) ([Source: glibc](https://packages.ubuntu.com/source/xenial/glibc))
+
+
 ## Ubuntu Community Help Wiki
 
 * [EnvironmentVariables](https://help.ubuntu.com/community/EnvironmentVariables)

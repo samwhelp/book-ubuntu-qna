@@ -5,6 +5,7 @@ description: >
   如何探索「Ubuntu」
 ---
 
+
 ## Workflow
 
 * [從「指令」找到「使用說明」](/book-ubuntu-qna/read/howto/exploration/command-and-manpage.html)
@@ -24,6 +25,7 @@ description: >
 
 * [關於「/etc/environment」](/book-ubuntu-qna/read/howto/exploration/file-etc-environment.html)
 * [關於「/etc/default/locale」](/book-ubuntu-qna/read/howto/exploration/file-etc-default-locale.html)
+* [關於「/etc/networks」](/book-ubuntu-qna/read/howto/exploration/file-etc-networks.html)
 
 
 ## Debian Wiki
