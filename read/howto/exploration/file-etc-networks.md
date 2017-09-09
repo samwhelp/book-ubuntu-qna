@@ -130,3 +130,8 @@ networks: /etc/networks /usr/share/man/man5/networks.5.gz
 ## Debian Wiki
 
 * [Network](https://wiki.debian.org/Network)
+
+
+## 相關討論
+
+* [如何查詢某個檔案，屬於哪個套件](http://samwhelp.github.io/book-ubuntu-basic-skill/book/content/package/how-to-find-out-what-package-a-file-belongs-to.html)

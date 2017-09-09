@@ -239,3 +239,8 @@ pam_getenv: /usr/sbin/pam_getenv /usr/share/man/man8/pam_getenv.8.gz /usr/share/
 
 * [EnvironmentVariables](https://wiki.debian.org/EnvironmentVariables)
 * [Locale](https://wiki.debian.org/Locale)
+
+
+## 相關討論
+
+* [#6 回覆: ubuntun 14.04, psql 無法使用](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=358372#forumpost358372)
