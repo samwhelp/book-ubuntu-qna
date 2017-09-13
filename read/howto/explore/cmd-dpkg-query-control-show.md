@@ -5,8 +5,8 @@ description: >
   如何觀看套件的「Control File」內容 - 關於「dpkg-query --control-show」
 parent:
   title: 如何探索「Ubuntu」
-  url: '/read/howto/exploration/'
-source_url: '/read/howto/exploration/cmd-dpkg-query-control-show.md'  
+  url: '/read/howto/explore/'
+source_url: '/read/howto/explore/cmd-dpkg-query-control-show.md'
 ---
 
 ## 主要方式

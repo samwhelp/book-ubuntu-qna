@@ -5,13 +5,13 @@ description: >
   找「已安裝套件」的「檔案列表」。
 parent:
   title: 如何探索「Ubuntu」
-  url: '/read/howto/exploration/'
-source_url: '/read/howto/exploration/package-installed-filelist.md'   
+  url: '/read/howto/explore/'
+source_url: '/read/howto/explore/package-installed-filelist.md'
 ---
 
 ## 前提
 
-接續上一篇『[從「指令」找到「所屬套件」](/book-ubuntu-qna/read/howto/exploration/command-and-package.html)』，以「[coreutils](http://packages.ubuntu.com/xenial/coreutils)」這個套件來當案例說明。
+接續上一篇『[從「指令」找到「所屬套件」](/book-ubuntu-qna/read/howto/explore/command-and-package.html)』，以「[coreutils](http://packages.ubuntu.com/xenial/coreutils)」這個套件來當案例說明。
 
 
 ## 步驟
@@ -280,4 +280,4 @@ $ cat /var/lib/dpkg/info/coreutils.list
 
 ## 後續
 
-接下來，透過下載套件，[觀看「套件」的「檔案列表」](/book-ubuntu-qna/read/howto/exploration/package-filelist.html)，這可以應用在尚未安裝的套件。
+接下來，透過下載套件，[觀看「套件」的「檔案列表」](/book-ubuntu-qna/read/howto/explore/package-filelist.html)，這可以應用在尚未安裝的套件。

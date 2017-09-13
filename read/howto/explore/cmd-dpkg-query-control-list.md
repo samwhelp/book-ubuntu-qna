@@ -5,8 +5,8 @@ description: >
   關於「dpkg-query --control-list」
 parent:
   title: 如何探索「Ubuntu」
-  url: '/read/howto/exploration/'
-source_url: '/read/howto/exploration/cmd-dpkg-query-control-list.md'  
+  url: '/read/howto/explore/'
+source_url: '/read/howto/explore/cmd-dpkg-query-control-list.md'
 ---
 
 ## 主要方式

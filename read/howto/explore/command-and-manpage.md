@@ -5,8 +5,8 @@ description: >
   從「指令」找到「使用說明」。
 parent:
   title: 如何探索「Ubuntu」
-  url: '/read/howto/exploration/'
-source_url: '/read/howto/exploration/command-and-manpage.md'
+  url: '/read/howto/explore/'
+source_url: '/read/howto/explore/command-and-manpage.md'
 ---
 
 
@@ -121,4 +121,4 @@ A manual page consists of several sections.
 
 ## 後續
 
-接下來，來了解，如何『[從「指令」找到「所屬套件」](/book-ubuntu-qna/read/howto/exploration/command-and-package.html)』。
+接下來，來了解，如何『[從「指令」找到「所屬套件」](/book-ubuntu-qna/read/howto/explore/command-and-package.html)』。

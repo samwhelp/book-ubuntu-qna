@@ -5,14 +5,14 @@ description: >
   從「指令」找到「所屬套件」。
 parent:
   title: 如何探索「Ubuntu」
-  url: '/read/howto/exploration/'
-source_url: '/read/howto/exploration/command-and-package.md'  
+  url: '/read/howto/explore/'
+source_url: '/read/howto/explore/command-and-package.md'
 ---
 
 
 ## 前提
 
-接續上一篇『[從「指令」找到「使用說明」]([從「指令」找到「使用說明」](/book-ubuntu-qna/read/howto/exploration/command-and-manpage.html))』，一樣使用最常用的指令「[ls](http://manpages.ubuntu.com/manpages/xenial/en/man1/ls.1.html)」來當案例說明。
+接續上一篇『[從「指令」找到「使用說明」]([從「指令」找到「使用說明」](/book-ubuntu-qna/read/howto/explore/command-and-manpage.html))』，一樣使用最常用的指令「[ls](http://manpages.ubuntu.com/manpages/xenial/en/man1/ls.1.html)」來當案例說明。
 
 
 ## 步驟
@@ -76,4 +76,4 @@ coreutils: /bin/ls
 
 ## 後續
 
-接下來，『[找「已安裝套件」的「檔案列表」](/book-ubuntu-qna/read/howto/exploration/package-installed-filelist.html)』。
+接下來，『[找「已安裝套件」的「檔案列表」](/book-ubuntu-qna/read/howto/explore/package-installed-filelist.html)』。

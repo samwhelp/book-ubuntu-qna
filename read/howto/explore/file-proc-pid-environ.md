@@ -5,8 +5,8 @@ description: >
   關於「/proc/[pid]/environ」
 parent:
   title: 如何探索「Ubuntu」
-  url: '/read/howto/exploration/'
-source_url: '/read/howto/exploration/file-proc-pid-environ.md'
+  url: '/read/howto/explore/'
+source_url: '/read/howto/explore/file-proc-pid-environ.md'
 ---
 
 

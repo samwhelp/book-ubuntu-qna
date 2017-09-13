@@ -5,8 +5,8 @@ description: >
   如何找到套件的「Control File」路徑 - 關於「dpkg-query --control-path」或「dpkg-query -c」
 parent:
   title: 如何探索「Ubuntu」
-  url: '/read/howto/exploration/'
-source_url: '/read/howto/exploration/cmd-dpkg-query-control-path.md'
+  url: '/read/howto/explore/'
+source_url: '/read/howto/explore/cmd-dpkg-query-control-path.md'
 ---
 
 

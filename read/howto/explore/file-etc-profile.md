@@ -5,8 +5,8 @@ description: >
   關於「/etc/profile」
 parent:
   title: 如何探索「Ubuntu」
-  url: '/read/howto/exploration/'
-source_url: '/read/howto/exploration/file-etc-profile.md'
+  url: '/read/howto/explore/'
+source_url: '/read/howto/explore/file-etc-profile.md'
 ---
 
 ## 測試環境

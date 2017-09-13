@@ -5,8 +5,8 @@ description: >
   關於「/etc/environment」
 parent:
   title: 如何探索「Ubuntu」
-  url: '/read/howto/exploration/'
-source_url: '/read/howto/exploration/file-etc-environment.md'
+  url: '/read/howto/explore/'
+source_url: '/read/howto/explore/file-etc-environment.md'
 ---
 
 ## 測試環境
