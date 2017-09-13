@@ -6,7 +6,8 @@ description: >
 date: 2016-10-04 14:04:23 +0800  
 parent:
   title: 如何修復「Ubuntu」
-  url: '/read/howto/recovery/'
+  url: '/read/howto/recover/'
+source_url: '/read/howto/recover/recovery-mode-read-only.md' 
 ---
 
 

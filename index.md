@@ -16,7 +16,7 @@ source_url: '/index.md'
 ## 基本技巧
 
 * [如何探索「Ubuntu」](/book-ubuntu-qna/read/howto/exploration/)
-* [如何修復「Ubuntu」](/book-ubuntu-qna/read/howto/recovery/)
+* [如何修復「Ubuntu」](/book-ubuntu-qna/read/howto/recover/)
 
 ## 安裝套件
 
