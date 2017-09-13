@@ -154,7 +154,7 @@ zh_TW.po
 ## Package
 
 * [language-pack-zh-hant-base](https://packages.ubuntu.com/xenial/language-pack-zh-hant-base) (Source: [language-pack-zh-hant-base](https://packages.ubuntu.com/source/xenial/language-pack-zh-hant-base))
-* [locales](https://packages.ubuntu.com/xenial/locales) (Source: [glibc](https://packages.ubuntu.com/source/xenial/glibc))
+* [libc-bin](https://packages.ubuntu.com/xenial/libc-bin) (Source: [glibc](https://packages.ubuntu.com/source/xenial/glibc))
 
 
 ## Ubuntu Community Help Wiki
