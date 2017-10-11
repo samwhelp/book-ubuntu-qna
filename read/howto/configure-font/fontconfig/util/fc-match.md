@@ -84,6 +84,8 @@ $ fc-match
 DejaVuSans.ttf: "DejaVu Sans" "Book"
 ```
 
+### pattern
+
 執行
 
 ``` sh
@@ -339,6 +341,28 @@ $ fc-match -f '%{fullname}\n' -s serif | less
 
 ``` sh
 $ fc-match -f '%{fullname}\n' -s sans-serif | less
+```
+
+### element
+
+以下面為例，「element」指的是「fullname file lang」，「pattern」指的是「monospace」。
+
+執行
+
+``` sh
+$ fc-match monospace fullname file lang
+```
+
+顯示
+
+```
+:fullname=Liberation Mono:file=/usr/share/fonts/truetype/liberation/LiberationMono-Regular.ttf:lang=aa|af|av|ay|be|bg|bi|br|bs|ca|ce|ch|co|cs|cy|da|de|el|en|eo|es|et|eu|fi|fj|fo|fr|fur|fy|gd|gl|gv|ho|hr|hu|ia|id|ie|ik|io|is|it|ki|kl|kum|la|lb|lez|lt|lv|mg|mh|mk|mo|mt|nb|nds|nl|nn|no|nr|nso|ny|oc|om|os|pl|pt|rm|ro|ru|se|sel|sk|sl|sma|smj|smn|so|sq|sr|ss|st|sv|sw|tk|tl|tn|tr|ts|uk|uz|vo|vot|wa|wen|wo|xh|yap|zu|an|crh|csb|fil|hsb|ht|jv|kj|ku-tr|kwm|lg|li|ms|na|ng|pap-an|pap-aw|rn|rw|sc|sg|sn|su|za
+```
+
+執行
+
+``` sh
+$ fc-match -s monospace fullname file lang | less
 ```
 
 ## 相關討論
