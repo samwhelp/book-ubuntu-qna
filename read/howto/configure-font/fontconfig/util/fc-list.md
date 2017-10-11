@@ -202,7 +202,7 @@ $ fc-list | grep 全字庫
 
 ### pattern
 
-執行
+執行 (這個範例，「pattern」指的是「Ubuntu」)
 
 ``` sh
 $ fc-list Ubuntu
@@ -221,7 +221,7 @@ $ fc-list Ubuntu
 /usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-BI.ttf: Ubuntu:style=Bold Italic
 ```
 
-執行
+執行 (這個範例，「pattern」指的是「Ubuntu Mono」)
 
 ``` sh
 $ fc-list 'Ubuntu Mono'
@@ -236,7 +236,7 @@ $ fc-list 'Ubuntu Mono'
 /usr/share/fonts/truetype/ubuntu-font-family/UbuntuMono-RI.ttf: Ubuntu Mono:style=Italic
 ```
 
-執行
+執行 (這個範例，「pattern」指的是「TW\-Kai」)
 
 ``` sh
 $ fc-list 'TW\-Kai'
@@ -248,7 +248,7 @@ $ fc-list 'TW\-Kai'
 /usr/local/share/fonts/CNS11643/TW-Kai-98_1.ttf: TW\-Kai,全字庫正楷體:style=Regular
 ```
 
-執行
+執行 (這個範例，「pattern」指的是「全字庫正楷體」)
 
 ``` sh
 $ fc-list '全字庫正楷體'
@@ -260,37 +260,7 @@ $ fc-list '全字庫正楷體'
 /usr/local/share/fonts/CNS11643/TW-Kai-98_1.ttf: TW\-Kai,全字庫正楷體:style=Regular
 ```
 
-執行
-
-``` sh
-$ fc-list :monospace
-```
-
-執行
-
-``` sh
-$ fc-list :mono
-```
-
-執行
-
-``` sh
-$ fc-list :sans-serief
-```
-
-執行
-
-``` sh
-$ fc-list :sans
-```
-
-執行
-
-``` sh
-$ fc-list :serief
-```
-
-執行
+執行 (這個範例，「pattern」指的是「:lang=zh-tw」)
 
 ``` sh
 $ fc-list :lang=zh-tw
@@ -355,19 +325,19 @@ fullnamelang: "zh-tw"(s) "en"(s)
 lang: aa|ab|af|am|ar|as|ast|av|ay|az-az|az-ir|ba|bm|be|bg|bh|bho|bi|bin|bn|bo|br|bs|bua|ca|ce|ch|chm|chr|co|cs|cu|cv|cy|da|de|dz|el|en|eo|es|et|eu|fa|fi|fj|fo|fr|ff|fur|fy|ga|gd|gez|gl|gn|gu|gv|ha|haw|he|hi|ho|hr|hu|hy|ia|ig|id|ie|ik|io|is|it|iu|ja|ka|kaa|ki|kk|kl|km|kn|kok|ku-ir|kum|kv|kw|ky|la|lb|lez|ln|lo|lt|lv|mg|mh|mi|mk|ml|mn-cn|mo|mr|mt|my|nb|nds|ne|nl|nn|no|nr|nso|ny|oc|om|or|os|pa|pl|ps-af|ps-pk|pt|rm|ro|ru|sa|sah|sco|se|sel|sh|shs|si|sk|sl|sm|sma|smj|smn|sms|so|sq|sr|ss|st|sv|sw|syr|ta|te|tg|th|ti-er|ti-et|tig|tk|tl|tn|to|tr|ts|tt|tw|tyv|ug|uk|ur|uz|ve|vi|vo|vot|wa|wen|wo|xh|yap|yi|yo|zh-tw|zu|ak|an|ber-dz|byn|crh|csb|dv|ee|fat|fil|hne|hsb|ht|hz|ii|jv|kab|kj|ku-iq|ku-tr|kwm|lg|li|mai|mn-mn|ms|na|ng|nv|ota|pa-pk|pap-an|pap-aw|qu|quz|rn|rw|sc|sd|sg|sid|sn|su|ty|wal|za|lah|brx|sat|doi(s)
 ```
 
-執行
+執行 (這個範例，「pattern」指的是「:familylang=zh-tw」)
 
 ``` sh
 $ fc-list :familylang=zh-tw
 ```
 
-執行
+執行 (這個範例，「pattern」指的是「:stylelang=zh-tw」)
 
 ``` sh
 $ fc-list :stylelang=zh-tw
 ```
 
-執行
+執行 (這個範例，「pattern」指的是「:fullnamelang=zh-tw」)
 
 ``` sh
 $ fc-list :fullnamelang=zh-tw
@@ -386,36 +356,29 @@ $ fc-list :fullnamelang=zh-tw
 /usr/local/share/fonts/rxkt/rxkt0.ttf: <,日星初號楷體<:style=Book
 ```
 
-執行
+執行 (這個範例，「pattern」指的是「:width=100」)
 
 ``` sh
 $ fc-list :width=100
 ```
 
-執行
+執行 (這個範例，「pattern」指的是「:weight=100」)
 
 ``` sh
 $ fc-list :weight=100
 ```
 
-執行
+執行 (這個範例，「pattern」指的是「:width=100:weight=100」)
 
 ``` sh
 $ fc-list :width=100:weight=100
 ```
 
-執行
+執行 (這個範例，「pattern」指的是「:lang=zh-tw:width=100:weight=80」)
 
 ``` sh
 $ fc-list :lang=zh-tw:width=100:weight=80
 ```
-
-執行
-
-``` sh
-$ fc-list :monospace:lang=zh-tw:width:100:weight=80
-```
-
 
 ### 選項 -v
 
@@ -690,8 +653,7 @@ $ fc-list -f '%{file}: %{fullname}\n'
 ...略...
 ```
 
-
-執行
+執行 (這個範例，「pattern」指的是「TW\-Kai」)
 
 ``` sh
 $ fc-list -f '%{fullname}\n' 'TW\-Kai'
@@ -703,7 +665,7 @@ $ fc-list -f '%{fullname}\n' 'TW\-Kai'
 TW-Kai,全字庫正楷體
 ```
 
-執行
+執行 (這個範例，「pattern」指的是「TW\-Kai」)
 
 ``` sh
 $ fc-list -f '%{fullname}\n' 'TW\-Kai' | sed 's/,/\n/g'
@@ -716,13 +678,15 @@ TW-Kai
 全字庫正楷體
 ```
 
-執行
+### element
+
+執行 (這個範例，「element」指的是「family style file spacing」，「pattern」指的是「:」)
 
 ``` sh
 $ fc-list : family style file spacing
 ```
 
-執行
+執行 (這個範例，「element」指的是「file」，「pattern」指的是「:lang=zh-tw」)
 
 ``` sh
 $ fc-list :lang=zh-tw file
@@ -743,7 +707,7 @@ $ fc-list :lang=zh-tw file
 /usr/share/fonts/opentype/noto/NotoSansCJK-Medium.ttc:
 ```
 
-執行
+執行 (這個範例，「element」指的是「family style file spacing」，「pattern」指的是「:lang=zh-tw」)
 
 ``` sh
 $ fc-list :lang=zh-tw family style file spacing
