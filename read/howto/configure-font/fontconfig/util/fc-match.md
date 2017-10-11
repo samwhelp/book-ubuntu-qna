@@ -86,7 +86,7 @@ DejaVuSans.ttf: "DejaVu Sans" "Book"
 
 ### pattern
 
-執行
+執行 (這個範例，「pattern」指的是「DejaVu Sans」)
 
 ``` sh
 $ fc-match 'DejaVu Sans'
@@ -98,7 +98,7 @@ $ fc-match 'DejaVu Sans'
 DejaVuSans.ttf: "DejaVu Sans" "Book"
 ```
 
-執行
+執行 (這個範例，「pattern」指的是「Ubuntu Mono」)
 
 ``` sh
 $ fc-match 'Ubuntu Mono'
@@ -110,19 +110,19 @@ $ fc-match 'Ubuntu Mono'
 UbuntuMono-R.ttf: "Ubuntu Mono" "Regular"
 ```
 
-執行
+執行 (這個範例，「pattern」指的是「monospace」)
 
 ``` sh
 $ fc-match monospace
 ```
 
-執行
+執行 (這個範例，「pattern」指的是「serif」)
 
 ``` sh
 $ fc-match serif
 ```
 
-執行
+執行 (這個範例，「pattern」指的是「sans-serif」)
 
 ``` sh
 $ fc-match sans-serif
@@ -130,49 +130,49 @@ $ fc-match sans-serif
 
 ### 選項 -s
 
-執行
+執行 (這個範例，「pattern」指的是「monospace」)
 
 ``` sh
 $ fc-match -s monospace | less
 ```
 
-執行
+執行 (這個範例，「pattern」指的是「serif」)
 
 ``` sh
 $ fc-match -s serif | less
 ```
 
-執行
+執行 (這個範例，「pattern」指的是「sans-serif」)
 
 ``` sh
 $ fc-match -s sans-serif | less
 ```
 
-執行
+執行 (這個範例，「pattern」指的是「mono」)
 
 ``` sh
 $ fc-match -s mono | less
 ```
 
-執行
+執行 (這個範例，「pattern」指的是「sans」)
 
 ``` sh
 $ fc-match -s sans | less
 ```
 
-執行
+執行 (這個範例，「pattern」指的是「標楷體」)
 
 ``` sh
 $ fc-match -s 標楷體 | less
 ```
 
-執行
+執行 (這個範例，「pattern」指的是「monospace」)
 
 ``` sh
 $ fc-match -v -s monospace | less
 ```
 
-執行
+執行 (這個範例，「pattern」指的是「monospace」)
 
 ``` sh
 $ fc-match -f '%{fullname}\n' -s monospace | less
@@ -187,7 +187,7 @@ $ fc-match -f '%{fullname}\n' -s monospace | less
 $ fc-match -v
 ```
 
-執行
+執行 (這個範例，「pattern」指的是「DejaVu Sans」)
 
 ``` sh
 $ fc-match -v -s 'DejaVu Sans' | less
@@ -303,7 +303,7 @@ $ fc-match -f '%{fullname}\n'
 DejaVu Sans
 ```
 
-執行
+執行 (這個範例，「pattern」指的是「DejaVu Sans」)
 
 ``` sh
 $ fc-match -f '%{fullname}\n' -s 'DejaVu Sans' | less
@@ -319,25 +319,25 @@ DejaVu Sans Bold Oblique
 ...略...
 ```
 
-執行
+執行 (這個範例，「pattern」指的是「Ubuntu Mono」)
 
 ``` sh
 $ fc-match -f '%{fullname}\n' -s 'Ubuntu Mono' | less
 ```
 
-執行
+執行 (這個範例，「pattern」指的是「monospace」)
 
 ``` sh
 $ fc-match -f '%{fullname}\n' -s monospace | less
 ```
 
-執行
+執行 (這個範例，「pattern」指的是「serif」)
 
 ``` sh
 $ fc-match -f '%{fullname}\n' -s serif | less
 ```
 
-執行
+執行 (這個範例，「pattern」指的是「sans-serif」)
 
 ``` sh
 $ fc-match -f '%{fullname}\n' -s sans-serif | less
@@ -345,9 +345,7 @@ $ fc-match -f '%{fullname}\n' -s sans-serif | less
 
 ### element
 
-以下面為例，「element」指的是「fullname file lang」，「pattern」指的是「monospace」。
-
-執行
+執行 (這個範例，「element」指的是「fullname file lang」，「pattern」指的是「monospace」)
 
 ``` sh
 $ fc-match monospace fullname file lang
@@ -359,7 +357,7 @@ $ fc-match monospace fullname file lang
 :fullname=Liberation Mono:file=/usr/share/fonts/truetype/liberation/LiberationMono-Regular.ttf:lang=aa|af|av|ay|be|bg|bi|br|bs|ca|ce|ch|co|cs|cy|da|de|el|en|eo|es|et|eu|fi|fj|fo|fr|fur|fy|gd|gl|gv|ho|hr|hu|ia|id|ie|ik|io|is|it|ki|kl|kum|la|lb|lez|lt|lv|mg|mh|mk|mo|mt|nb|nds|nl|nn|no|nr|nso|ny|oc|om|os|pl|pt|rm|ro|ru|se|sel|sk|sl|sma|smj|smn|so|sq|sr|ss|st|sv|sw|tk|tl|tn|tr|ts|uk|uz|vo|vot|wa|wen|wo|xh|yap|zu|an|crh|csb|fil|hsb|ht|jv|kj|ku-tr|kwm|lg|li|ms|na|ng|pap-an|pap-aw|rn|rw|sc|sg|sn|su|za
 ```
 
-執行
+執行 (這個範例，「element」指的是「fullname file lang」，「pattern」指的是「monospace」)
 
 ``` sh
 $ fc-match -s monospace fullname file lang | less
