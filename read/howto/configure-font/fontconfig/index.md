@@ -21,6 +21,7 @@ source_url: '/read/howto/configure-font/fontconfig/index.md'
 ## 輔助工具
 
 * [fc-list](/book-ubuntu-qna/read/howto/configure-font/fontconfig/util/fc-list.html)
+* [fc-query](/book-ubuntu-qna/read/howto/configure-font/fontconfig/util/fc-query.html)
 
 
 ## 相關主題
