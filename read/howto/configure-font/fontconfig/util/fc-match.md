@@ -363,6 +363,37 @@ $ fc-match monospace fullname file lang
 $ fc-match -s monospace fullname file lang | less
 ```
 
+執行 (這個範例，「element」指的是「family style fullname file」，「pattern」指的是「monospace」)
+
+``` sh
+$ fc-match monospace family style fullname file
+```
+
+顯示
+
+```
+Liberation Mono:style=Regular:fullname=Liberation Mono:file=/usr/share/fonts/truetype/liberation/LiberationMono-Regular.ttf
+```
+
+執行 (這個範例，「element」指的是「family style fullname file lang」，「pattern」指的是「monospace」)
+
+
+``` sh
+$ fc-match -v monospace family style fullname file lang
+```
+
+顯示
+
+```
+Pattern has 5 elts (size 16)
+	family: "Liberation Mono"(s)
+	style: "Regular"(s)
+	fullname: "Liberation Mono"(s)
+	file: "/usr/share/fonts/truetype/liberation/LiberationMono-Regular.ttf"(w)
+	lang: aa|af|av|ay|be|bg|bi|br|bs|ca|ce|ch|co|cs|cy|da|de|el|en|eo|es|et|eu|fi|fj|fo|fr|fur|fy|gd|gl|gv|ho|hr|hu|ia|id|ie|ik|io|is|it|ki|kl|kum|la|lb|lez|lt|lv|mg|mh|mk|mo|mt|nb|nds|nl|nn|no|nr|nso|ny|oc|om|os|pl|pt|rm|ro|ru|se|sel|sk|sl|sma|smj|smn|so|sq|sr|ss|st|sv|sw|tk|tl|tn|tr|ts|uk|uz|vo|vot|wa|wen|wo|xh|yap|zu|an|crh|csb|fil|hsb|ht|jv|kj|ku-tr|kwm|lg|li|ms|na|ng|pap-an|pap-aw|rn|rw|sc|sg|sn|su|za(s)
+```
+
+
 ## 相關討論
 
 * 回覆: 關於steam遊戲--Portal 2 無法顯示中文字型 - 「[#8](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=358498#forumpost358498)」，「[#10](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=358532#forumpost358532)」，「[#3](https://www.ubuntu-tw.org/modules/newbb/viewtopic.php?post_id=355982#forumpost355982)」
