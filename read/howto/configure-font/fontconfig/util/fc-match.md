@@ -84,6 +84,48 @@ $ fc-match
 DejaVuSans.ttf: "DejaVu Sans" "Book"
 ```
 
+執行
+
+``` sh
+$ fc-match 'DejaVu Sans'
+```
+
+顯示
+
+```
+DejaVuSans.ttf: "DejaVu Sans" "Book"
+```
+
+執行
+
+``` sh
+$ fc-match 'Ubuntu Mono'
+```
+
+顯示
+
+```
+UbuntuMono-R.ttf: "Ubuntu Mono" "Regular"
+```
+
+執行
+
+``` sh
+$ fc-match monospace
+```
+
+執行
+
+``` sh
+$ fc-match serif
+```
+
+執行
+
+``` sh
+$ fc-match sans-serif
+```
+
 ### 選項 -s
 
 執行
@@ -146,7 +188,7 @@ $ fc-match -v
 執行
 
 ``` sh
-$ fc-match -v -s "DejaVu Sans" | less
+$ fc-match -v -s 'DejaVu Sans' | less
 ```
 
 顯示
@@ -262,7 +304,7 @@ DejaVu Sans
 執行
 
 ``` sh
-$ fc-match -f '%{fullname}\n' -s "DejaVu Sans" | less
+$ fc-match -f '%{fullname}\n' -s 'DejaVu Sans' | less
 ```
 
 顯示
@@ -278,9 +320,26 @@ DejaVu Sans Bold Oblique
 執行
 
 ``` sh
-$ fc-match -f '%{fullname}\n' -s "Ubuntu Mono" | less
+$ fc-match -f '%{fullname}\n' -s 'Ubuntu Mono' | less
 ```
 
+執行
+
+``` sh
+$ fc-match -f '%{fullname}\n' -s monospace | less
+```
+
+執行
+
+``` sh
+$ fc-match -f '%{fullname}\n' -s serif | less
+```
+
+執行
+
+``` sh
+$ fc-match -f '%{fullname}\n' -s sans-serif | less
+```
 
 ## 相關討論
 
