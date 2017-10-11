@@ -202,6 +202,24 @@ $ fc-list | grep 全字庫
 
 ### pattern
 
+執行 (這個範例，「pattern」指的是「:」)
+
+``` sh
+$ fc-list :
+```
+
+關於「:」代表的意義，可以閱讀「[man fc-list](http://manpages.ubuntu.com/manpages/xenial/en/man1/fc-list.1.html)」的「[EXAMPLES](http://manpages.ubuntu.com/manpages/xenial/en/man1/fc-list.1.html#contenttoc4)」。
+
+裡面有一個範例
+
+```
+fc-list : family style file spacing
+	   Lists the filename and spacing value for each font face. ``:'' is an empty pattern that matches all fonts.
+```
+
+裡面有一段說明「``:'' is an empty pattern that matches all fonts. 」。
+
+
 執行 (這個範例，「pattern」指的是「Ubuntu」)
 
 ``` sh
@@ -221,6 +239,33 @@ $ fc-list Ubuntu
 /usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-BI.ttf: Ubuntu:style=Bold Italic
 ```
 
+執行 (這個範例，「pattern」指的是「Ubuntu Light」)
+
+``` sh
+$ fc-list 'Ubuntu Light'
+```
+
+顯示
+
+```
+/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-LI.ttf: Ubuntu,Ubuntu Light:style=Light Italic,Italic
+/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-M.ttf: Ubuntu,Ubuntu Light:style=Medium,Bold
+/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-L.ttf: Ubuntu,Ubuntu Light:style=Light,Regular
+/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-MI.ttf: Ubuntu,Ubuntu Light:style=Medium Italic,Bold Italic
+```
+
+執行 (這個範例，「pattern」指的是「Ubuntu Condensed」)
+
+``` sh
+$ fc-list 'Ubuntu Condensed'
+```
+
+顯示
+
+```
+/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-C.ttf: Ubuntu Condensed:style=Regular
+```
+
 執行 (這個範例，「pattern」指的是「Ubuntu Mono」)
 
 ``` sh
@@ -234,6 +279,131 @@ $ fc-list 'Ubuntu Mono'
 /usr/share/fonts/truetype/ubuntu-font-family/UbuntuMono-B.ttf: Ubuntu Mono:style=Bold
 /usr/share/fonts/truetype/ubuntu-font-family/UbuntuMono-BI.ttf: Ubuntu Mono:style=Bold Italic
 /usr/share/fonts/truetype/ubuntu-font-family/UbuntuMono-RI.ttf: Ubuntu Mono:style=Italic
+```
+
+執行 (這個範例，「pattern」指的是「Ubuntu Mono」，「element」指的是「file family style fullname」)
+
+``` sh
+$ fc-list 'Ubuntu Mono' file family style fullname
+```
+
+顯示
+
+```
+/usr/share/fonts/truetype/ubuntu-font-family/UbuntuMono-BI.ttf: Ubuntu Mono:style=Bold Italic:fullname=Ubuntu Mono Bold Italic
+/usr/share/fonts/truetype/ubuntu-font-family/UbuntuMono-RI.ttf: Ubuntu Mono:style=Italic:fullname=Ubuntu Mono Italic
+/usr/share/fonts/truetype/ubuntu-font-family/UbuntuMono-R.ttf: Ubuntu Mono:style=Regular:fullname=Ubuntu Mono
+/usr/share/fonts/truetype/ubuntu-font-family/UbuntuMono-B.ttf: Ubuntu Mono:style=Bold:fullname=Ubuntu Mono Bold
+```
+
+執行 (這個範例，「pattern」指的是「Ubuntu Mono」，「element」指的是「file family style fullname」)
+
+``` sh
+$ fc-list -v 'Ubuntu Mono' file family fullname style
+```
+
+顯示
+
+```
+Pattern has 4 elts (size 16)
+	family: "Ubuntu Mono"(s)
+	style: "Bold Italic"(s)
+	fullname: "Ubuntu Mono Bold Italic"(s)
+	file: "/usr/share/fonts/truetype/ubuntu-font-family/UbuntuMono-BI.ttf"(s)
+
+Pattern has 4 elts (size 16)
+	family: "Ubuntu Mono"(s)
+	style: "Italic"(s)
+	fullname: "Ubuntu Mono Italic"(s)
+	file: "/usr/share/fonts/truetype/ubuntu-font-family/UbuntuMono-RI.ttf"(s)
+
+Pattern has 4 elts (size 16)
+	family: "Ubuntu Mono"(s)
+	style: "Regular"(s)
+	fullname: "Ubuntu Mono"(s)
+	file: "/usr/share/fonts/truetype/ubuntu-font-family/UbuntuMono-R.ttf"(s)
+
+Pattern has 4 elts (size 16)
+	family: "Ubuntu Mono"(s)
+	style: "Bold"(s)
+	fullname: "Ubuntu Mono Bold"(s)
+	file: "/usr/share/fonts/truetype/ubuntu-font-family/UbuntuMono-B.ttf"(s)
+```
+
+執行 (這個範例，「pattern」指的是「Ubuntu Mono:style=Bold」)
+
+``` sh
+$ fc-list 'Ubuntu Mono:style=Bold'
+```
+
+顯示
+
+```
+/usr/share/fonts/truetype/ubuntu-font-family/UbuntuMono-B.ttf: Ubuntu Mono:style=Bold
+```
+
+執行 (這個範例，「pattern」指的是「Ubuntu Mono:style=Bold」，「element」指的是「file family style fullname」)
+
+``` sh
+$ fc-list 'Ubuntu Mono:style=Bold' file family style fullname
+```
+
+顯示
+
+```
+/usr/share/fonts/truetype/ubuntu-font-family/UbuntuMono-B.ttf: Ubuntu Mono:style=Bold:fullname=Ubuntu Mono Bold
+```
+
+執行 (這個範例，「pattern」指的是「Ubuntu Mono:style=Bold」，「element」指的是「file family style fullname」)
+
+``` sh
+$ fc-list -v 'Ubuntu Mono:style=Bold' file family style fullname
+```
+
+顯示
+
+```
+Pattern has 4 elts (size 16)
+	family: "Ubuntu Mono"(s)
+	style: "Bold"(s)
+	fullname: "Ubuntu Mono Bold"(s)
+	file: "/usr/share/fonts/truetype/ubuntu-font-family/UbuntuMono-B.ttf"(s)
+```
+
+執行 (這個範例，「pattern」指的是「Ubuntu Mono:style=Regular」)
+
+``` sh
+$ fc-list 'Ubuntu Mono:style=Regular'
+```
+
+顯示
+
+```
+/usr/share/fonts/truetype/ubuntu-font-family/UbuntuMono-R.ttf: Ubuntu Mono:style=Regular
+```
+
+執行 (這個範例，「pattern」指的是「Ubuntu Mono:style=Italic」)
+
+``` sh
+$ fc-list 'Ubuntu Mono:style=Italic'
+```
+
+顯示
+
+```
+/usr/share/fonts/truetype/ubuntu-font-family/UbuntuMono-RI.ttf: Ubuntu Mono:style=Italic
+```
+
+執行 (這個範例，「pattern」指的是「Ubuntu Mono:style=Bold Italic」)
+
+``` sh
+$ fc-list 'Ubuntu Mono:style=Bold Italic'
+```
+
+顯示
+
+```
+/usr/share/fonts/truetype/ubuntu-font-family/UbuntuMono-BI.ttf: Ubuntu Mono:style=Bold Italic
 ```
 
 執行 (這個範例，「pattern」指的是「TW\-Kai」)
@@ -396,7 +566,7 @@ $ fc-list -v
 $ fc-list -v | less
 ```
 
-執行
+執行 (這個範例，「pattern」指的是「TW\-Kai」)
 
 ``` sh
 $ fc-list -v 'TW\-Kai'
@@ -684,6 +854,57 @@ TW-Kai
 
 ``` sh
 $ fc-list : family style file spacing
+```
+
+執行 (這個範例，「element」指的是「file family fullname style」，「pattern」指的是「:」)
+
+``` sh
+$ fc-list : file family fullname style | grep Ubuntu
+```
+
+顯示
+
+```
+/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-C.ttf: Ubuntu Condensed:style=Regular:fullname=Ubuntu Condensed
+/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-R.ttf: Ubuntu:style=Regular:fullname=Ubuntu
+/usr/share/fonts/truetype/ubuntu-font-family/UbuntuMono-BI.ttf: Ubuntu Mono:style=Bold Italic:fullname=Ubuntu Mono Bold Italic
+/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-M.ttf: Ubuntu,Ubuntu Light:style=Medium,Bold:fullname=Ubuntu Medium
+/usr/share/fonts/truetype/ubuntu-font-family/UbuntuMono-RI.ttf: Ubuntu Mono:style=Italic:fullname=Ubuntu Mono Italic
+/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-MI.ttf: Ubuntu,Ubuntu Light:style=Medium Italic,Bold Italic:fullname=Ubuntu Medium Italic
+/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-RI.ttf: Ubuntu:style=Italic:fullname=Ubuntu Italic
+/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-LI.ttf: Ubuntu,Ubuntu Light:style=Light Italic,Italic:fullname=Ubuntu Light Italic
+/usr/share/fonts/truetype/ubuntu-font-family/UbuntuMono-R.ttf: Ubuntu Mono:style=Regular:fullname=Ubuntu Mono
+/usr/share/fonts/truetype/ubuntu-font-family/UbuntuMono-B.ttf: Ubuntu Mono:style=Bold:fullname=Ubuntu Mono Bold
+/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-B.ttf: Ubuntu:style=Bold:fullname=Ubuntu Bold
+/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-L.ttf: Ubuntu,Ubuntu Light:style=Light,Regular:fullname=Ubuntu Light
+/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-BI.ttf: Ubuntu:style=Bold Italic:fullname=Ubuntu Bold Italic
+```
+
+執行 (這個範例，「element」指的是「file family fullname style」，「pattern」指的是「:style=Bold」)
+
+``` sh
+$ fc-list :style=Bold file family fullname style | grep Ubuntu
+```
+
+顯示
+
+```
+/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-M.ttf: Ubuntu,Ubuntu Light:style=Medium,Bold:fullname=Ubuntu Medium
+/usr/share/fonts/truetype/ubuntu-font-family/UbuntuMono-B.ttf: Ubuntu Mono:style=Bold:fullname=Ubuntu Mono Bold
+/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-B.ttf: Ubuntu:style=Bold:fullname=Ubuntu Bold
+```
+
+執行 (這個範例，「element」指的是「file family fullname style」，「pattern」指的是「Ubuntu:style=Bold」)
+
+``` sh
+$ fc-list Ubuntu:style=Bold file family fullname style
+```
+
+顯示
+
+```
+/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-M.ttf: Ubuntu,Ubuntu Light:style=Medium,Bold:fullname=Ubuntu Medium
+/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-B.ttf: Ubuntu:style=Bold:fullname=Ubuntu Bold
 ```
 
 執行 (這個範例，「element」指的是「file」，「pattern」指的是「:lang=zh-tw」)
