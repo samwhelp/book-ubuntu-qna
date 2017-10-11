@@ -28,6 +28,7 @@ description: >
 * [關於「/etc/profile」](/book-ubuntu-qna/read/howto/explore/file-etc-profile.html)
 * [關於「/proc/[pid]/environ」](/book-ubuntu-qna/read/howto/explore/file-proc-pid-environ.html)
 * [關於「libc.mo」](/book-ubuntu-qna/read/howto/explore/file-libc-mo.html)
+* [關於「/usr/share/locale-langpack」](/book-ubuntu-qna/read/howto/explore/file-usr-share-locale-langpack.html)
 * [關於「/etc/networks」](/book-ubuntu-qna/read/howto/explore/file-etc-networks.html)
 
 
