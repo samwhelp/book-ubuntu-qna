@@ -1052,6 +1052,14 @@ Pattern has 24 elts (size 32)
         symbol: False(s)
 ```
 
+而「[fc-list](http://manpages.ubuntu.com/manpages/xenial/en/man1/fc-list.1.html)」也有一個選項是「-v」，也會顯示所有「欄位(element)」像上面一樣。
+
+例如：可以執行
+
+``` sh
+$ fc-list -v 'Ubuntu Mono' | less
+```
+
 ### 搭配 dpkg -S 找到字型檔案所屬套件
 
 執行下面指令，先找到路徑
