@@ -103,6 +103,12 @@ $ fc-cat -r /usr/share/fonts | less
 $ fc-cat -v -r /usr/share/fonts | less
 ```
 
+執行
+
+``` sh
+$ fc-cat -rv /usr/share/fonts | less
+```
+
 ### 選項 -v
 
 執行
