@@ -121,6 +121,8 @@ LC_ALL=
 
 ### 基本操作
 
+關於「fc-scan」的用法，請參考「[如何使用「fc-scan」這個指令](/book-ubuntu-qna/read/howto/configure-font/fontconfig/util/fc-scan.html)」這篇的說明。
+
 先執行
 
 ``` sh
