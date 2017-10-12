@@ -25,6 +25,7 @@ source_url: '/read/howto/configure-font/fontconfig/index.md'
 * [fc-match](/book-ubuntu-qna/read/howto/configure-font/fontconfig/util/fc-match.html)
 * [fc-pattern](/book-ubuntu-qna/read/howto/configure-font/fontconfig/util/fc-pattern.html)
 * [fc-cat](/book-ubuntu-qna/read/howto/configure-font/fontconfig/util/fc-cat.html)
+* [fc-scan](/book-ubuntu-qna/read/howto/configure-font/fontconfig/util/fc-scan.html)
 
 
 ## 相關主題
