@@ -86,6 +86,8 @@ DejaVuSans.ttf: "DejaVu Sans" "Book"
 
 ### pattern
 
+關於「pattern」的概念，可以先參考『[如何使用「fc-pattern」這個指令](/book-ubuntu-qna/read/howto/configure-font/fontconfig/util/fc-pattern.html)』這篇的說明。
+
 執行 (這個範例，「pattern」指的是「DejaVu Sans」)
 
 ``` sh
