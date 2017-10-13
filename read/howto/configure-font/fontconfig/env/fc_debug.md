@@ -33,6 +33,10 @@ $ man fonts.conf
 裡面有一段說明如下：
 
 ```
+ENVIRONMENT VARIABLES
+
+       ...略...
+
        FC_DEBUG is used to output the detailed debugging messages. see Debugging Applications section for more details.
 ```
 
