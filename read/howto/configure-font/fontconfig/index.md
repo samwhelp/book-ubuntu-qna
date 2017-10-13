@@ -28,6 +28,11 @@ source_url: '/read/howto/configure-font/fontconfig/index.md'
 * [fc-scan](/book-ubuntu-qna/read/howto/configure-font/fontconfig/util/fc-scan.html)
 * [fc-validate](/book-ubuntu-qna/read/howto/configure-font/fontconfig/util/fc-validate.html)
 
+## 環境變數
+
+* [FC_DEBUG](/book-ubuntu-qna/read/howto/configure-font/fontconfig/env/fc_debug.html)
+
+
 ## 相關主題
 
 * [系統如何安裝字型](/book-ubuntu-qna/read/howto/configure-font/font)
